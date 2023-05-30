@@ -1,0 +1,125 @@
+2022-08-23 13:48:25.687799: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-08-23 13:48:27.068829: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-08-23 13:48:27.429131: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 19689 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:65:00.0, compute capability: 8.6
+2022-08-23 13:48:28.848688: I tensorflow/stream_executor/cuda/cuda_blas.cc:1786] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+WARNING:tensorflow:Epoch: 0, Train_Loss: 48595.449219, proceeding to images: 24000, time left for the epoch: 39.88 min
+W0823 13:52:03.751054 140059496572032 train_LSTM.py:329] Epoch: 0, Train_Loss: 48595.449219, proceeding to images: 24000, time left for the epoch: 39.88 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16808.062500, proceeding to images: 48000, time left for the epoch: 36.31 min
+W0823 13:55:39.992331 140059496572032 train_LSTM.py:329] Epoch: 0, Train_Loss: 16808.062500, proceeding to images: 48000, time left for the epoch: 36.31 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 41486.769531, proceeding to images: 72000, time left for the epoch: 32.79 min
+W0823 13:59:17.585201 140059496572032 train_LSTM.py:329] Epoch: 0, Train_Loss: 41486.769531, proceeding to images: 72000, time left for the epoch: 32.79 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 18680.630859, proceeding to images: 96000, time left for the epoch: 29.25 min
+W0823 14:02:56.452751 140059496572032 train_LSTM.py:329] Epoch: 0, Train_Loss: 18680.630859, proceeding to images: 96000, time left for the epoch: 29.25 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14073.788086, proceeding to images: 120000, time left for the epoch: 25.68 min
+W0823 14:06:35.313802 140059496572032 train_LSTM.py:329] Epoch: 0, Train_Loss: 14073.788086, proceeding to images: 120000, time left for the epoch: 25.68 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 12171.225586, proceeding to images: 144000, time left for the epoch: 22.06 min
+W0823 14:10:13.324619 140059496572032 train_LSTM.py:329] Epoch: 0, Train_Loss: 12171.225586, proceeding to images: 144000, time left for the epoch: 22.06 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 79491.882812, proceeding to images: 168000, time left for the epoch: 18.44 min
+W0823 14:13:51.083781 140059496572032 train_LSTM.py:329] Epoch: 0, Train_Loss: 79491.882812, proceeding to images: 168000, time left for the epoch: 18.44 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 21972.310547, proceeding to images: 192000, time left for the epoch: 14.81 min
+W0823 14:17:29.300798 140059496572032 train_LSTM.py:329] Epoch: 0, Train_Loss: 21972.310547, proceeding to images: 192000, time left for the epoch: 14.81 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15776.775391, proceeding to images: 216000, time left for the epoch: 11.19 min
+W0823 14:21:07.201519 140059496572032 train_LSTM.py:329] Epoch: 0, Train_Loss: 15776.775391, proceeding to images: 216000, time left for the epoch: 11.19 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 12143.840820, proceeding to images: 240000, time left for the epoch: 7.56 min
+W0823 14:24:44.002696 140059496572032 train_LSTM.py:329] Epoch: 0, Train_Loss: 12143.840820, proceeding to images: 240000, time left for the epoch: 7.56 min
+Num GPUs Available:  1
+start training process
+Traceback (most recent call last):
+  File "/home/stu4/wlg/PLATO/train_LSTM.py", line 390, in <module>
+    app.run(main)
+  File "/home/stu4/wlg/VOE/lib/python3.10/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/stu4/wlg/VOE/lib/python3.10/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/stu4/wlg/PLATO/train_LSTM.py", line 324, in main
+    train_lstm_step(lstm, perception, data, optimizer) 
+  File "/home/stu4/wlg/PLATO/train_LSTM.py", line 228, in train_lstm_step
+    gradients = tape.gradient(loss_value, lstm.trainable_weights)
+  File "/home/stu4/wlg/VOE/lib/python3.10/site-packages/tensorflow/python/eager/backprop.py", line 1100, in gradient
+    flat_grad = imperative_grad.imperative_grad(
+  File "/home/stu4/wlg/VOE/lib/python3.10/site-packages/tensorflow/python/eager/imperative_grad.py", line 67, in imperative_grad
+    return pywrap_tfe.TFE_Py_TapeGradient(
+  File "/home/stu4/wlg/VOE/lib/python3.10/site-packages/tensorflow/python/eager/backprop.py", line 157, in _gradient_function
+    return grad_fn(mock_op, *out_grads)
+  File "/home/stu4/wlg/VOE/lib/python3.10/site-packages/tensorflow/python/ops/math_grad.py", line 1369, in _MulGrad
+    return gen_math_ops.mul(grad, y), gen_math_ops.mul(grad, x)
+  File "/home/stu4/wlg/VOE/lib/python3.10/site-packages/tensorflow/python/ops/gen_math_ops.py", line 6576, in mul
+    _result = pywrap_tfe.TFE_Py_FastPathExecute(
+KeyboardInterrupt
+WARNING:tensorflow:Detecting that an object or model or tf.train.Checkpoint is being deleted with unrestored values. See the following logs for the specific values in question. To silence these warnings, use `status.expect_partial()`. See https://www.tensorflow.org/api_docs/python/tf/train/Checkpoint#restorefor details about the status object returned by the restore function.
+W0823 14:27:41.336439 140059496572032 util.py:200] Detecting that an object or model or tf.train.Checkpoint is being deleted with unrestored values. See the following logs for the specific values in question. To silence these warnings, use `status.expect_partial()`. See https://www.tensorflow.org/api_docs/python/tf/train/Checkpoint#restorefor details about the status object returned by the restore function.
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).global_step
+W0823 14:27:41.336609 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).global_step
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.iter
+W0823 14:27:41.336645 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer.iter
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.decay
+W0823 14:27:41.336676 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer.decay
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.momentum
+W0823 14:27:41.336702 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer.momentum
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.rho
+W0823 14:27:41.336729 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer.rho
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-0.kernel
+W0823 14:27:41.336755 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-0.bias
+W0823 14:27:41.336782 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-1.kernel
+W0823 14:27:41.336807 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-1.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-1.bias
+W0823 14:27:41.336840 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-1.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-2.kernel
+W0823 14:27:41.336866 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-2.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-2.bias
+W0823 14:27:41.336892 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-2.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-3.kernel
+W0823 14:27:41.336919 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-3.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-3.bias
+W0823 14:27:41.336944 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-3.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-4.kernel
+W0823 14:27:41.336969 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-4.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-4.bias
+W0823 14:27:41.336994 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).network.decoder.decoder.layer_with_weights-4.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-0.kernel
+W0823 14:27:41.337020 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-0.bias
+W0823 14:27:41.337046 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-1.kernel
+W0823 14:27:41.337072 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-1.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-1.bias
+W0823 14:27:41.337098 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-1.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-2.kernel
+W0823 14:27:41.337122 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-2.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-2.bias
+W0823 14:27:41.337150 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-2.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-3.kernel
+W0823 14:27:41.337177 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-3.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-3.bias
+W0823 14:27:41.337203 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-3.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-4.kernel
+W0823 14:27:41.337229 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-4.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-4.bias
+W0823 14:27:41.337255 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-4.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-5.kernel
+W0823 14:27:41.337280 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-5.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-5.bias
+W0823 14:27:41.337306 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.encoder.encoder.layer_with_weights-5.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-0.kernel
+W0823 14:27:41.337332 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-0.bias
+W0823 14:27:41.337358 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-1.kernel
+W0823 14:27:41.337383 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-1.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-1.bias
+W0823 14:27:41.337409 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-1.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-2.kernel
+W0823 14:27:41.337436 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-2.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-2.bias
+W0823 14:27:41.337461 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-2.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-3.kernel
+W0823 14:27:41.337487 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-3.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-3.bias
+W0823 14:27:41.337512 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-3.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-4.kernel
+W0823 14:27:41.337536 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-4.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-4.bias
+W0823 14:27:41.337562 140059496572032 util.py:209] Value in checkpoint could not be found in the restored object: (root).optimizer's state 'rms' for (root).network.decoder.decoder.layer_with_weights-4.bias

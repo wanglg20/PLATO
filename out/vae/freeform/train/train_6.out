@@ -1,0 +1,388 @@
+2022-08-09 10:40:48.130905: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-08-09 10:40:49.527530: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-08-09 10:40:49.886540: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22126 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:65:00.0, compute capability: 8.6
+2022-08-09 10:40:52.370523: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8400
+2022-08-09 10:40:53.438298: I tensorflow/stream_executor/cuda/cuda_blas.cc:1786] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+WARNING:tensorflow:Epoch: 0, Train_Loss: 179944.203125, train_mIoU: 1.811, proceeding to images: 29940
+W0809 10:42:27.101392 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 179944.203125, train_mIoU: 1.811, proceeding to images: 29940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 45609.398438, train_mIoU: 2.680, proceeding to images: 59940
+W0809 10:44:00.160365 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 45609.398438, train_mIoU: 2.680, proceeding to images: 59940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 43769.308594, train_mIoU: 2.910, proceeding to images: 89940
+W0809 10:45:31.389362 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 43769.308594, train_mIoU: 2.910, proceeding to images: 89940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 39595.457031, train_mIoU: 13.315, proceeding to images: 119940
+W0809 10:47:02.885518 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 39595.457031, train_mIoU: 13.315, proceeding to images: 119940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 32076.740234, train_mIoU: 33.929, proceeding to images: 149940
+W0809 10:48:34.112792 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 32076.740234, train_mIoU: 33.929, proceeding to images: 149940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 27716.277344, train_mIoU: 46.929, proceeding to images: 179940
+W0809 10:50:06.861176 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 27716.277344, train_mIoU: 46.929, proceeding to images: 179940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 24696.134766, train_mIoU: 58.725, proceeding to images: 209940
+W0809 10:51:40.121299 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 24696.134766, train_mIoU: 58.725, proceeding to images: 209940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 22523.916016, train_mIoU: 66.242, proceeding to images: 239940
+W0809 10:53:13.248246 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 22523.916016, train_mIoU: 66.242, proceeding to images: 239940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 21038.318359, train_mIoU: 70.032, proceeding to images: 269940
+W0809 10:54:48.133588 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 21038.318359, train_mIoU: 70.032, proceeding to images: 269940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 20080.369141, train_mIoU: 72.233, proceeding to images: 299940
+W0809 10:56:22.910798 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 20080.369141, train_mIoU: 72.233, proceeding to images: 299940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 19608.212891, train_mIoU: 74.002, proceeding to images: 329940
+W0809 10:57:57.303176 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 19608.212891, train_mIoU: 74.002, proceeding to images: 329940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 19100.828125, train_mIoU: 75.618, proceeding to images: 359940
+W0809 10:59:32.466850 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 19100.828125, train_mIoU: 75.618, proceeding to images: 359940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 18845.347656, train_mIoU: 76.523, proceeding to images: 389940
+W0809 11:01:07.342257 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 18845.347656, train_mIoU: 76.523, proceeding to images: 389940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 18407.916016, train_mIoU: 77.715, proceeding to images: 419940
+W0809 11:02:43.265885 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 18407.916016, train_mIoU: 77.715, proceeding to images: 419940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 18197.777344, train_mIoU: 78.554, proceeding to images: 449940
+W0809 11:04:17.427829 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 18197.777344, train_mIoU: 78.554, proceeding to images: 449940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 18027.125000, train_mIoU: 79.470, proceeding to images: 479940
+W0809 11:05:50.978733 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 18027.125000, train_mIoU: 79.470, proceeding to images: 479940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 17910.089844, train_mIoU: 80.412, proceeding to images: 509940
+W0809 11:07:24.659015 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 17910.089844, train_mIoU: 80.412, proceeding to images: 509940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 17600.058594, train_mIoU: 81.159, proceeding to images: 539940
+W0809 11:08:58.278335 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 17600.058594, train_mIoU: 81.159, proceeding to images: 539940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 17375.169922, train_mIoU: 81.219, proceeding to images: 569940
+W0809 11:10:30.601894 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 17375.169922, train_mIoU: 81.219, proceeding to images: 569940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 17485.775391, train_mIoU: 82.048, proceeding to images: 599940
+W0809 11:12:02.417819 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 17485.775391, train_mIoU: 82.048, proceeding to images: 599940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 17260.628906, train_mIoU: 81.741, proceeding to images: 629940
+W0809 11:13:33.818997 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 17260.628906, train_mIoU: 81.741, proceeding to images: 629940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 17219.621094, train_mIoU: 82.574, proceeding to images: 659940
+W0809 11:15:04.778242 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 17219.621094, train_mIoU: 82.574, proceeding to images: 659940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 17099.582031, train_mIoU: 82.967, proceeding to images: 689940
+W0809 11:16:36.829628 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 17099.582031, train_mIoU: 82.967, proceeding to images: 689940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16888.085938, train_mIoU: 82.814, proceeding to images: 719940
+W0809 11:18:10.680199 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16888.085938, train_mIoU: 82.814, proceeding to images: 719940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16925.642578, train_mIoU: 83.396, proceeding to images: 749940
+W0809 11:19:45.339331 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16925.642578, train_mIoU: 83.396, proceeding to images: 749940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16682.744141, train_mIoU: 83.478, proceeding to images: 779940
+W0809 11:21:19.664597 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16682.744141, train_mIoU: 83.478, proceeding to images: 779940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16675.105469, train_mIoU: 83.801, proceeding to images: 809940
+W0809 11:22:54.120355 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16675.105469, train_mIoU: 83.801, proceeding to images: 809940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16695.394531, train_mIoU: 84.205, proceeding to images: 839940
+W0809 11:24:28.625169 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16695.394531, train_mIoU: 84.205, proceeding to images: 839940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16574.111328, train_mIoU: 84.474, proceeding to images: 869940
+W0809 11:26:03.788064 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16574.111328, train_mIoU: 84.474, proceeding to images: 869940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16541.804688, train_mIoU: 83.722, proceeding to images: 899940
+W0809 11:27:37.809415 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16541.804688, train_mIoU: 83.722, proceeding to images: 899940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16552.919922, train_mIoU: 84.894, proceeding to images: 929940
+W0809 11:29:11.646304 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16552.919922, train_mIoU: 84.894, proceeding to images: 929940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16295.640625, train_mIoU: 85.164, proceeding to images: 959940
+W0809 11:30:44.392706 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16295.640625, train_mIoU: 85.164, proceeding to images: 959940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16280.857422, train_mIoU: 85.540, proceeding to images: 989940
+W0809 11:32:18.335316 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16280.857422, train_mIoU: 85.540, proceeding to images: 989940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16314.866211, train_mIoU: 85.830, proceeding to images: 1019940
+W0809 11:33:51.996638 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16314.866211, train_mIoU: 85.830, proceeding to images: 1019940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16195.177734, train_mIoU: 85.981, proceeding to images: 1049940
+W0809 11:35:25.113770 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16195.177734, train_mIoU: 85.981, proceeding to images: 1049940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16218.585938, train_mIoU: 86.110, proceeding to images: 1079940
+W0809 11:36:57.739104 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16218.585938, train_mIoU: 86.110, proceeding to images: 1079940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15943.198242, train_mIoU: 86.631, proceeding to images: 1109940
+W0809 11:38:29.139460 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15943.198242, train_mIoU: 86.631, proceeding to images: 1109940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 16054.137695, train_mIoU: 86.367, proceeding to images: 1139940
+W0809 11:39:59.743287 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 16054.137695, train_mIoU: 86.367, proceeding to images: 1139940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15910.589844, train_mIoU: 86.890, proceeding to images: 1169940
+W0809 11:41:31.521675 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15910.589844, train_mIoU: 86.890, proceeding to images: 1169940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15718.215820, train_mIoU: 87.291, proceeding to images: 1199940
+W0809 11:43:04.041648 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15718.215820, train_mIoU: 87.291, proceeding to images: 1199940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15653.660156, train_mIoU: 87.235, proceeding to images: 1229940
+W0809 11:44:37.749906 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15653.660156, train_mIoU: 87.235, proceeding to images: 1229940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15607.158203, train_mIoU: 87.826, proceeding to images: 1259940
+W0809 11:46:11.953372 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15607.158203, train_mIoU: 87.826, proceeding to images: 1259940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15632.353516, train_mIoU: 87.960, proceeding to images: 1289940
+W0809 11:47:45.589566 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15632.353516, train_mIoU: 87.960, proceeding to images: 1289940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15503.353516, train_mIoU: 88.477, proceeding to images: 1319940
+W0809 11:49:20.443019 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15503.353516, train_mIoU: 88.477, proceeding to images: 1319940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15565.294922, train_mIoU: 88.465, proceeding to images: 1349940
+W0809 11:50:55.308133 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15565.294922, train_mIoU: 88.465, proceeding to images: 1349940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15452.350586, train_mIoU: 88.420, proceeding to images: 1379940
+W0809 11:52:29.743525 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15452.350586, train_mIoU: 88.420, proceeding to images: 1379940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15486.342773, train_mIoU: 88.467, proceeding to images: 1409940
+W0809 11:54:03.802355 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15486.342773, train_mIoU: 88.467, proceeding to images: 1409940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15421.926758, train_mIoU: 88.752, proceeding to images: 1439940
+W0809 11:55:36.616512 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15421.926758, train_mIoU: 88.752, proceeding to images: 1439940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15350.601562, train_mIoU: 88.931, proceeding to images: 1469940
+W0809 11:57:09.968218 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15350.601562, train_mIoU: 88.931, proceeding to images: 1469940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15303.336914, train_mIoU: 89.450, proceeding to images: 1499940
+W0809 11:58:42.981181 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15303.336914, train_mIoU: 89.450, proceeding to images: 1499940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15212.013672, train_mIoU: 89.101, proceeding to images: 1529940
+W0809 12:00:15.669378 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15212.013672, train_mIoU: 89.101, proceeding to images: 1529940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15406.114258, train_mIoU: 89.220, proceeding to images: 1559940
+W0809 12:01:47.164890 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15406.114258, train_mIoU: 89.220, proceeding to images: 1559940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15248.031250, train_mIoU: 89.085, proceeding to images: 1589940
+W0809 12:03:17.973659 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15248.031250, train_mIoU: 89.085, proceeding to images: 1589940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15195.551758, train_mIoU: 89.392, proceeding to images: 1619940
+W0809 12:04:49.984584 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15195.551758, train_mIoU: 89.392, proceeding to images: 1619940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15147.506836, train_mIoU: 89.467, proceeding to images: 1649940
+W0809 12:06:24.527531 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15147.506836, train_mIoU: 89.467, proceeding to images: 1649940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15016.031250, train_mIoU: 90.082, proceeding to images: 1679940
+W0809 12:07:58.458200 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15016.031250, train_mIoU: 90.082, proceeding to images: 1679940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15094.791016, train_mIoU: 89.668, proceeding to images: 1709940
+W0809 12:09:32.152388 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15094.791016, train_mIoU: 89.668, proceeding to images: 1709940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15127.866211, train_mIoU: 89.842, proceeding to images: 1739940
+W0809 12:11:06.660435 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15127.866211, train_mIoU: 89.842, proceeding to images: 1739940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15050.127930, train_mIoU: 90.483, proceeding to images: 1769940
+W0809 12:12:40.811340 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15050.127930, train_mIoU: 90.483, proceeding to images: 1769940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14934.627930, train_mIoU: 90.264, proceeding to images: 1799940
+W0809 12:14:15.222949 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14934.627930, train_mIoU: 90.264, proceeding to images: 1799940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15085.729492, train_mIoU: 89.885, proceeding to images: 1829940
+W0809 12:15:50.186215 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15085.729492, train_mIoU: 89.885, proceeding to images: 1829940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15015.750000, train_mIoU: 90.135, proceeding to images: 1859940
+W0809 12:17:24.508445 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15015.750000, train_mIoU: 90.135, proceeding to images: 1859940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 15051.170898, train_mIoU: 90.144, proceeding to images: 1889940
+W0809 12:18:58.382354 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 15051.170898, train_mIoU: 90.144, proceeding to images: 1889940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14804.512695, train_mIoU: 90.755, proceeding to images: 1919940
+W0809 12:20:31.431767 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14804.512695, train_mIoU: 90.755, proceeding to images: 1919940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14877.308594, train_mIoU: 90.298, proceeding to images: 1949940
+W0809 12:22:04.602123 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14877.308594, train_mIoU: 90.298, proceeding to images: 1949940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14876.750977, train_mIoU: 90.543, proceeding to images: 1979940
+W0809 12:23:38.027203 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14876.750977, train_mIoU: 90.543, proceeding to images: 1979940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14812.301758, train_mIoU: 90.827, proceeding to images: 2009940
+W0809 12:25:11.683000 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14812.301758, train_mIoU: 90.827, proceeding to images: 2009940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14763.068359, train_mIoU: 90.893, proceeding to images: 2039940
+W0809 12:26:43.070731 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14763.068359, train_mIoU: 90.893, proceeding to images: 2039940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14670.847656, train_mIoU: 90.949, proceeding to images: 2069940
+W0809 12:28:14.326058 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14670.847656, train_mIoU: 90.949, proceeding to images: 2069940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14734.409180, train_mIoU: 91.176, proceeding to images: 2099940
+W0809 12:29:45.401621 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14734.409180, train_mIoU: 91.176, proceeding to images: 2099940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14653.044922, train_mIoU: 90.870, proceeding to images: 2129940
+W0809 12:31:16.417758 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14653.044922, train_mIoU: 90.870, proceeding to images: 2129940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14657.314453, train_mIoU: 91.081, proceeding to images: 2159940
+W0809 12:32:48.705068 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14657.314453, train_mIoU: 91.081, proceeding to images: 2159940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14682.322266, train_mIoU: 91.232, proceeding to images: 2189940
+W0809 12:34:21.930591 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14682.322266, train_mIoU: 91.232, proceeding to images: 2189940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14762.776367, train_mIoU: 91.632, proceeding to images: 2219940
+W0809 12:35:56.039917 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14762.776367, train_mIoU: 91.632, proceeding to images: 2219940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14675.513672, train_mIoU: 91.087, proceeding to images: 2249940
+W0809 12:37:30.962885 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14675.513672, train_mIoU: 91.087, proceeding to images: 2249940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14664.984375, train_mIoU: 91.405, proceeding to images: 2279940
+W0809 12:39:05.580462 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14664.984375, train_mIoU: 91.405, proceeding to images: 2279940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14601.359375, train_mIoU: 91.686, proceeding to images: 2309940
+W0809 12:40:40.901481 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14601.359375, train_mIoU: 91.686, proceeding to images: 2309940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14555.372070, train_mIoU: 91.363, proceeding to images: 2339940
+W0809 12:42:14.494235 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14555.372070, train_mIoU: 91.363, proceeding to images: 2339940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14586.647461, train_mIoU: 91.531, proceeding to images: 2369940
+W0809 12:43:48.083015 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14586.647461, train_mIoU: 91.531, proceeding to images: 2369940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14570.927734, train_mIoU: 91.577, proceeding to images: 2399940
+W0809 12:45:21.247256 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14570.927734, train_mIoU: 91.577, proceeding to images: 2399940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14473.008789, train_mIoU: 91.726, proceeding to images: 2429940
+W0809 12:46:54.439077 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14473.008789, train_mIoU: 91.726, proceeding to images: 2429940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14557.668945, train_mIoU: 91.543, proceeding to images: 2459940
+W0809 12:48:27.785659 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14557.668945, train_mIoU: 91.543, proceeding to images: 2459940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14446.240234, train_mIoU: 91.851, proceeding to images: 2489940
+W0809 12:50:01.144580 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14446.240234, train_mIoU: 91.851, proceeding to images: 2489940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14606.335938, train_mIoU: 91.885, proceeding to images: 2519940
+W0809 12:51:33.791421 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14606.335938, train_mIoU: 91.885, proceeding to images: 2519940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14497.028320, train_mIoU: 92.079, proceeding to images: 2549940
+W0809 12:53:05.174963 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14497.028320, train_mIoU: 92.079, proceeding to images: 2549940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14289.671875, train_mIoU: 92.036, proceeding to images: 2579940
+W0809 12:54:35.435014 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14289.671875, train_mIoU: 92.036, proceeding to images: 2579940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14381.075195, train_mIoU: 91.967, proceeding to images: 2609940
+W0809 12:56:05.547517 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14381.075195, train_mIoU: 91.967, proceeding to images: 2609940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14388.908203, train_mIoU: 92.361, proceeding to images: 2639940
+W0809 12:57:37.258810 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14388.908203, train_mIoU: 92.361, proceeding to images: 2639940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14317.400391, train_mIoU: 92.070, proceeding to images: 2669940
+W0809 12:59:10.618251 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14317.400391, train_mIoU: 92.070, proceeding to images: 2669940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14401.824219, train_mIoU: 92.197, proceeding to images: 2699940
+W0809 13:00:44.073333 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14401.824219, train_mIoU: 92.197, proceeding to images: 2699940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14297.972656, train_mIoU: 92.162, proceeding to images: 2729940
+W0809 13:02:19.476965 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14297.972656, train_mIoU: 92.162, proceeding to images: 2729940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14344.911133, train_mIoU: 92.187, proceeding to images: 2759940
+W0809 13:03:53.758109 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14344.911133, train_mIoU: 92.187, proceeding to images: 2759940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14304.176758, train_mIoU: 92.452, proceeding to images: 2789940
+W0809 13:05:28.446825 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14304.176758, train_mIoU: 92.452, proceeding to images: 2789940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14207.859375, train_mIoU: 92.566, proceeding to images: 2819940
+W0809 13:07:03.159784 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14207.859375, train_mIoU: 92.566, proceeding to images: 2819940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14246.556641, train_mIoU: 92.300, proceeding to images: 2849940
+W0809 13:08:38.019552 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14246.556641, train_mIoU: 92.300, proceeding to images: 2849940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14280.240234, train_mIoU: 92.497, proceeding to images: 2879940
+W0809 13:10:11.703040 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14280.240234, train_mIoU: 92.497, proceeding to images: 2879940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14312.912109, train_mIoU: 92.318, proceeding to images: 2909940
+W0809 13:11:44.800686 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14312.912109, train_mIoU: 92.318, proceeding to images: 2909940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14232.794922, train_mIoU: 92.627, proceeding to images: 2939940
+W0809 13:13:17.920147 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14232.794922, train_mIoU: 92.627, proceeding to images: 2939940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14210.915039, train_mIoU: 92.687, proceeding to images: 2969940
+W0809 13:14:51.630297 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14210.915039, train_mIoU: 92.687, proceeding to images: 2969940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14185.203125, train_mIoU: 92.550, proceeding to images: 2999940
+W0809 13:16:24.403640 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14185.203125, train_mIoU: 92.550, proceeding to images: 2999940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14262.663086, train_mIoU: 92.672, proceeding to images: 3029940
+W0809 13:17:55.911739 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14262.663086, train_mIoU: 92.672, proceeding to images: 3029940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14097.993164, train_mIoU: 93.111, proceeding to images: 3059940
+W0809 13:19:26.766574 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14097.993164, train_mIoU: 93.111, proceeding to images: 3059940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14182.669922, train_mIoU: 92.913, proceeding to images: 3089940
+W0809 13:20:58.467118 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14182.669922, train_mIoU: 92.913, proceeding to images: 3089940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14171.450195, train_mIoU: 92.642, proceeding to images: 3119940
+W0809 13:22:30.670659 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14171.450195, train_mIoU: 92.642, proceeding to images: 3119940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14171.348633, train_mIoU: 93.047, proceeding to images: 3149940
+W0809 13:24:04.177838 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14171.348633, train_mIoU: 93.047, proceeding to images: 3149940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14108.205078, train_mIoU: 92.934, proceeding to images: 3179940
+W0809 13:25:37.595720 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14108.205078, train_mIoU: 92.934, proceeding to images: 3179940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14062.805664, train_mIoU: 93.150, proceeding to images: 3209940
+W0809 13:27:11.993928 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14062.805664, train_mIoU: 93.150, proceeding to images: 3209940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14077.848633, train_mIoU: 92.986, proceeding to images: 3239940
+W0809 13:28:45.951296 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14077.848633, train_mIoU: 92.986, proceeding to images: 3239940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14187.321289, train_mIoU: 93.212, proceeding to images: 3269940
+W0809 13:30:20.936433 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14187.321289, train_mIoU: 93.212, proceeding to images: 3269940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14006.307617, train_mIoU: 93.162, proceeding to images: 3299940
+W0809 13:31:56.174739 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14006.307617, train_mIoU: 93.162, proceeding to images: 3299940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14008.151367, train_mIoU: 93.402, proceeding to images: 3329940
+W0809 13:33:30.623875 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14008.151367, train_mIoU: 93.402, proceeding to images: 3329940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14029.105469, train_mIoU: 93.320, proceeding to images: 3359940
+W0809 13:35:04.612872 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14029.105469, train_mIoU: 93.320, proceeding to images: 3359940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14088.877930, train_mIoU: 93.092, proceeding to images: 3389940
+W0809 13:36:38.281987 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14088.877930, train_mIoU: 93.092, proceeding to images: 3389940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14053.739258, train_mIoU: 93.258, proceeding to images: 3419940
+W0809 13:38:10.937304 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14053.739258, train_mIoU: 93.258, proceeding to images: 3419940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 14058.575195, train_mIoU: 93.174, proceeding to images: 3449940
+W0809 13:39:44.758866 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 14058.575195, train_mIoU: 93.174, proceeding to images: 3449940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13970.772461, train_mIoU: 93.521, proceeding to images: 3479940
+W0809 13:41:18.174143 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13970.772461, train_mIoU: 93.521, proceeding to images: 3479940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13934.195312, train_mIoU: 93.459, proceeding to images: 3509940
+W0809 13:42:51.201895 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13934.195312, train_mIoU: 93.459, proceeding to images: 3509940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13956.920898, train_mIoU: 93.440, proceeding to images: 3539940
+W0809 13:44:22.272962 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13956.920898, train_mIoU: 93.440, proceeding to images: 3539940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13974.785156, train_mIoU: 93.322, proceeding to images: 3569940
+W0809 13:45:53.629843 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13974.785156, train_mIoU: 93.322, proceeding to images: 3569940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13993.569336, train_mIoU: 93.579, proceeding to images: 3599940
+W0809 13:47:24.167367 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13993.569336, train_mIoU: 93.579, proceeding to images: 3599940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13894.416016, train_mIoU: 93.522, proceeding to images: 3629940
+W0809 13:48:56.168235 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13894.416016, train_mIoU: 93.522, proceeding to images: 3629940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13926.416992, train_mIoU: 93.479, proceeding to images: 3659940
+W0809 13:50:30.829762 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13926.416992, train_mIoU: 93.479, proceeding to images: 3659940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13899.576172, train_mIoU: 93.770, proceeding to images: 3689940
+W0809 13:52:04.981227 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13899.576172, train_mIoU: 93.770, proceeding to images: 3689940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13902.038086, train_mIoU: 93.576, proceeding to images: 3719940
+W0809 13:53:39.793427 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13902.038086, train_mIoU: 93.576, proceeding to images: 3719940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13913.232422, train_mIoU: 93.518, proceeding to images: 3749940
+W0809 13:55:14.343580 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13913.232422, train_mIoU: 93.518, proceeding to images: 3749940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13924.621094, train_mIoU: 93.673, proceeding to images: 3779940
+W0809 13:56:49.255594 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13924.621094, train_mIoU: 93.673, proceeding to images: 3779940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13875.441406, train_mIoU: 93.638, proceeding to images: 3809940
+W0809 13:58:23.975012 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13875.441406, train_mIoU: 93.638, proceeding to images: 3809940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13875.747070, train_mIoU: 93.771, proceeding to images: 3839940
+W0809 13:59:58.349880 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13875.747070, train_mIoU: 93.771, proceeding to images: 3839940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13990.760742, train_mIoU: 93.484, proceeding to images: 3869940
+W0809 14:01:31.865909 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13990.760742, train_mIoU: 93.484, proceeding to images: 3869940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13918.391602, train_mIoU: 93.737, proceeding to images: 3899940
+W0809 14:03:05.616994 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13918.391602, train_mIoU: 93.737, proceeding to images: 3899940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13856.596680, train_mIoU: 93.560, proceeding to images: 3929940
+W0809 14:04:38.981652 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13856.596680, train_mIoU: 93.560, proceeding to images: 3929940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13816.958008, train_mIoU: 93.922, proceeding to images: 3959940
+W0809 14:06:12.743731 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13816.958008, train_mIoU: 93.922, proceeding to images: 3959940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13891.638672, train_mIoU: 93.689, proceeding to images: 3989940
+W0809 14:07:44.900125 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13891.638672, train_mIoU: 93.689, proceeding to images: 3989940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13753.117188, train_mIoU: 93.894, proceeding to images: 4019940
+W0809 14:09:16.261708 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13753.117188, train_mIoU: 93.894, proceeding to images: 4019940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 13870.625000, train_mIoU: 93.793, proceeding to images: 4049940
+W0809 14:10:47.787399 139759992935552 train_vae.py:215] Epoch: 0, Train_Loss: 13870.625000, train_mIoU: 93.793, proceeding to images: 4049940
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.000000, Train_mIoU: 0.000, 
+ Eval_Loss: 13867.425781, Eval_mIoU:  92.228
+W0809 14:12:29.090651 139759992935552 train_vae.py:236] Epoch: 0, Train_Loss: 0.000000, Train_mIoU: 0.000, 
+ Eval_Loss: 13867.425781, Eval_mIoU:  92.228
+WARNING:tensorflow:Time: 3:31:37.729698 for 1 epochs
+W0809 14:12:29.090805 139759992935552 train_vae.py:243] Time: 3:31:37.729698 for 1 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/perception/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-1
+W0809 14:12:29.117688 139759992935552 train_vae.py:254] Saved checkpoint: ./checkpoint/perception/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-1
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13824.319336, train_mIoU: 93.825, proceeding to images: 29940
+W0809 14:14:01.480644 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13824.319336, train_mIoU: 93.825, proceeding to images: 29940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13828.638672, train_mIoU: 94.109, proceeding to images: 59940
+W0809 14:15:34.814987 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13828.638672, train_mIoU: 94.109, proceeding to images: 59940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13759.989258, train_mIoU: 93.898, proceeding to images: 89940
+W0809 14:17:09.194259 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13759.989258, train_mIoU: 93.898, proceeding to images: 89940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13809.903320, train_mIoU: 93.846, proceeding to images: 119940
+W0809 14:18:45.102980 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13809.903320, train_mIoU: 93.846, proceeding to images: 119940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13853.604492, train_mIoU: 93.767, proceeding to images: 149940
+W0809 14:20:20.290766 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13853.604492, train_mIoU: 93.767, proceeding to images: 149940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13705.083984, train_mIoU: 94.023, proceeding to images: 179940
+W0809 14:21:55.575486 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13705.083984, train_mIoU: 94.023, proceeding to images: 179940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13741.491211, train_mIoU: 94.054, proceeding to images: 209940
+W0809 14:23:30.761322 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13741.491211, train_mIoU: 94.054, proceeding to images: 209940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13792.067383, train_mIoU: 94.254, proceeding to images: 239940
+W0809 14:25:05.696368 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13792.067383, train_mIoU: 94.254, proceeding to images: 239940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13813.030273, train_mIoU: 94.040, proceeding to images: 269940
+W0809 14:26:40.282639 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13813.030273, train_mIoU: 94.040, proceeding to images: 269940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13740.138672, train_mIoU: 94.033, proceeding to images: 299940
+W0809 14:28:15.187506 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13740.138672, train_mIoU: 94.033, proceeding to images: 299940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13754.391602, train_mIoU: 94.115, proceeding to images: 329940
+W0809 14:29:50.121957 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13754.391602, train_mIoU: 94.115, proceeding to images: 329940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13696.825195, train_mIoU: 94.179, proceeding to images: 359940
+W0809 14:31:24.869322 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13696.825195, train_mIoU: 94.179, proceeding to images: 359940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13748.611328, train_mIoU: 94.055, proceeding to images: 389940
+W0809 14:32:58.494629 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13748.611328, train_mIoU: 94.055, proceeding to images: 389940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13708.129883, train_mIoU: 94.268, proceeding to images: 419940
+W0809 14:34:30.219107 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13708.129883, train_mIoU: 94.268, proceeding to images: 419940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13753.183594, train_mIoU: 94.252, proceeding to images: 449940
+W0809 14:36:02.472795 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13753.183594, train_mIoU: 94.252, proceeding to images: 449940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13741.233398, train_mIoU: 94.264, proceeding to images: 479940
+W0809 14:37:34.948163 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13741.233398, train_mIoU: 94.264, proceeding to images: 479940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13732.437500, train_mIoU: 94.339, proceeding to images: 509940
+W0809 14:39:08.424071 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13732.437500, train_mIoU: 94.339, proceeding to images: 509940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13716.442383, train_mIoU: 94.435, proceeding to images: 539940
+W0809 14:40:41.231552 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13716.442383, train_mIoU: 94.435, proceeding to images: 539940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13615.662109, train_mIoU: 94.388, proceeding to images: 569940
+W0809 14:42:14.959166 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13615.662109, train_mIoU: 94.388, proceeding to images: 569940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13718.841797, train_mIoU: 94.526, proceeding to images: 599940
+W0809 14:43:48.701594 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13718.841797, train_mIoU: 94.526, proceeding to images: 599940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13650.201172, train_mIoU: 94.431, proceeding to images: 629940
+W0809 14:45:22.838026 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13650.201172, train_mIoU: 94.431, proceeding to images: 629940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13667.440430, train_mIoU: 94.603, proceeding to images: 659940
+W0809 14:46:57.877374 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13667.440430, train_mIoU: 94.603, proceeding to images: 659940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13683.156250, train_mIoU: 94.415, proceeding to images: 689940
+W0809 14:48:33.058668 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13683.156250, train_mIoU: 94.415, proceeding to images: 689940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13657.252930, train_mIoU: 94.330, proceeding to images: 719940
+W0809 14:50:09.223238 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13657.252930, train_mIoU: 94.330, proceeding to images: 719940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13704.370117, train_mIoU: 94.386, proceeding to images: 749940
+W0809 14:51:43.979790 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13704.370117, train_mIoU: 94.386, proceeding to images: 749940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13652.425781, train_mIoU: 94.450, proceeding to images: 779940
+W0809 14:53:18.836781 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13652.425781, train_mIoU: 94.450, proceeding to images: 779940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13615.645508, train_mIoU: 94.463, proceeding to images: 809940
+W0809 14:54:52.567732 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13615.645508, train_mIoU: 94.463, proceeding to images: 809940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13673.997070, train_mIoU: 94.488, proceeding to images: 839940
+W0809 14:56:27.428950 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13673.997070, train_mIoU: 94.488, proceeding to images: 839940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13617.530273, train_mIoU: 94.577, proceeding to images: 869940
+W0809 14:58:01.106415 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13617.530273, train_mIoU: 94.577, proceeding to images: 869940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13678.666016, train_mIoU: 94.135, proceeding to images: 899940
+W0809 14:59:32.740455 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13678.666016, train_mIoU: 94.135, proceeding to images: 899940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13653.499023, train_mIoU: 94.557, proceeding to images: 929940
+W0809 15:01:03.936438 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13653.499023, train_mIoU: 94.557, proceeding to images: 929940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13580.196289, train_mIoU: 94.619, proceeding to images: 959940
+W0809 15:02:34.926434 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13580.196289, train_mIoU: 94.619, proceeding to images: 959940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13659.393555, train_mIoU: 94.556, proceeding to images: 989940
+W0809 15:04:06.771308 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13659.393555, train_mIoU: 94.556, proceeding to images: 989940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13653.697266, train_mIoU: 94.744, proceeding to images: 1019940
+W0809 15:05:40.169690 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13653.697266, train_mIoU: 94.744, proceeding to images: 1019940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13643.798828, train_mIoU: 94.563, proceeding to images: 1049940
+W0809 15:07:14.902262 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13643.798828, train_mIoU: 94.563, proceeding to images: 1049940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13697.276367, train_mIoU: 94.489, proceeding to images: 1079940
+W0809 15:08:49.715125 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13697.276367, train_mIoU: 94.489, proceeding to images: 1079940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13625.820312, train_mIoU: 94.574, proceeding to images: 1109940
+W0809 15:10:24.077107 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13625.820312, train_mIoU: 94.574, proceeding to images: 1109940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13647.608398, train_mIoU: 94.490, proceeding to images: 1139940
+W0809 15:11:59.627313 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13647.608398, train_mIoU: 94.490, proceeding to images: 1139940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13563.510742, train_mIoU: 94.767, proceeding to images: 1169940
+W0809 15:13:35.594930 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13563.510742, train_mIoU: 94.767, proceeding to images: 1169940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13596.315430, train_mIoU: 94.547, proceeding to images: 1199940
+W0809 15:15:10.807964 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13596.315430, train_mIoU: 94.547, proceeding to images: 1199940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13557.159180, train_mIoU: 94.442, proceeding to images: 1229940
+W0809 15:16:46.031127 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13557.159180, train_mIoU: 94.442, proceeding to images: 1229940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13546.173828, train_mIoU: 94.702, proceeding to images: 1259940
+W0809 15:18:19.944513 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13546.173828, train_mIoU: 94.702, proceeding to images: 1259940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13570.461914, train_mIoU: 94.772, proceeding to images: 1289940
+W0809 15:19:54.893337 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13570.461914, train_mIoU: 94.772, proceeding to images: 1289940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13538.045898, train_mIoU: 94.972, proceeding to images: 1319940
+W0809 15:21:29.612133 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13538.045898, train_mIoU: 94.972, proceeding to images: 1319940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13603.844727, train_mIoU: 94.752, proceeding to images: 1349940
+W0809 15:23:02.989828 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13603.844727, train_mIoU: 94.752, proceeding to images: 1349940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13556.696289, train_mIoU: 94.793, proceeding to images: 1379940
+W0809 15:24:35.920498 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13556.696289, train_mIoU: 94.793, proceeding to images: 1379940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13623.178711, train_mIoU: 94.407, proceeding to images: 1409940
+W0809 15:26:06.739391 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13623.178711, train_mIoU: 94.407, proceeding to images: 1409940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13582.816406, train_mIoU: 94.863, proceeding to images: 1439940
+W0809 15:27:38.229559 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13582.816406, train_mIoU: 94.863, proceeding to images: 1439940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13560.951172, train_mIoU: 94.713, proceeding to images: 1469940
+W0809 15:29:09.908463 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13560.951172, train_mIoU: 94.713, proceeding to images: 1469940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13574.656250, train_mIoU: 94.949, proceeding to images: 1499940
+W0809 15:30:44.010221 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13574.656250, train_mIoU: 94.949, proceeding to images: 1499940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13519.145508, train_mIoU: 94.726, proceeding to images: 1529940
+W0809 15:32:17.679809 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13519.145508, train_mIoU: 94.726, proceeding to images: 1529940
+WARNING:tensorflow:Epoch: 1, Train_Loss: 13655.655273, train_mIoU: 94.676, proceeding to images: 1559940
+W0809 15:33:52.473955 139759992935552 train_vae.py:215] Epoch: 1, Train_Loss: 13655.655273, train_mIoU: 94.676, proceeding to images: 1559940

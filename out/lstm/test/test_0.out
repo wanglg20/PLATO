@@ -1,0 +1,27 @@
+2022-08-25 14:33:22.281799: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-08-25 14:33:23.691337: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-08-25 14:33:24.061980: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22126 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:65:00.0, compute capability: 8.6
+2022-08-25 14:33:24.706295: W tensorflow/core/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata".
+2022-08-25 14:33:26.760634: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8400
+2022-08-25 14:33:27.924841: I tensorflow/stream_executor/cuda/cuda_blas.cc:1786] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.000000, 
+ Relative_surprise:0.007495, Eval_accuracy: 0.741600, Eval_relative_accuracy: 0.515267, Test on: continuity
+W0825 14:34:50.159547 139875638162560 train_LSTM.py:412] Epoch: 30, Train_Loss: 0.000000, 
+ Relative_surprise:0.007495, Eval_accuracy: 0.741600, Eval_relative_accuracy: 0.515267, Test on: continuity
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.000000, 
+ Relative_surprise:-0.000894, Eval_accuracy: 0.442400, Eval_relative_accuracy: 0.497240, Test on: solidity
+W0825 14:36:12.193788 139875638162560 train_LSTM.py:412] Epoch: 30, Train_Loss: 0.000000, 
+ Relative_surprise:-0.000894, Eval_accuracy: 0.442400, Eval_relative_accuracy: 0.497240, Test on: solidity
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.000000, 
+ Relative_surprise:0.005864, Eval_accuracy: 0.624800, Eval_relative_accuracy: 0.510678, Test on: directional_inertia
+W0825 14:37:34.055147 139875638162560 train_LSTM.py:412] Epoch: 30, Train_Loss: 0.000000, 
+ Relative_surprise:0.005864, Eval_accuracy: 0.624800, Eval_relative_accuracy: 0.510678, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.000000, 
+ Relative_surprise:-0.000510, Eval_accuracy: 0.495200, Eval_relative_accuracy: 0.498470, Test on: unchangeableness
+W0825 14:38:56.855076 139875638162560 train_LSTM.py:412] Epoch: 30, Train_Loss: 0.000000, 
+ Relative_surprise:-0.000510, Eval_accuracy: 0.495200, Eval_relative_accuracy: 0.498470, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.000000, 
+ Relative_surprise:0.018311, Eval_accuracy: 0.614400, Eval_relative_accuracy: 0.518639, Test on: object_persistence
+W0825 14:40:20.058392 139875638162560 train_LSTM.py:412] Epoch: 30, Train_Loss: 0.000000, 
+ Relative_surprise:0.018311, Eval_accuracy: 0.614400, Eval_relative_accuracy: 0.518639, Test on: object_persistence

@@ -1,0 +1,37 @@
+2022-08-16 13:51:03.847547: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-08-16 13:51:05.300743: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-08-16 13:51:05.678172: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22126 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:65:00.0, compute capability: 8.6
+2022-08-16 13:51:07.267005: I tensorflow/stream_executor/cuda/cuda_blas.cc:1786] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+WARNING:tensorflow:Epoch: 0, Train_Loss: 2.207086, proceeding to images: 80000, time left for the epoch: 33.03 min
+W0816 14:03:06.657704 140293149226112 train_LSTM.py:289] Epoch: 0, Train_Loss: 2.207086, proceeding to images: 80000, time left for the epoch: 33.03 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.729745, proceeding to images: 160000, time left for the epoch: 20.99 min
+W0816 14:15:05.177249 140293149226112 train_LSTM.py:289] Epoch: 0, Train_Loss: 0.729745, proceeding to images: 160000, time left for the epoch: 20.99 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.629685, proceeding to images: 240000, time left for the epoch: 9.00 min
+W0816 14:27:06.171606 140293149226112 train_LSTM.py:289] Epoch: 0, Train_Loss: 0.629685, proceeding to images: 240000, time left for the epoch: 9.00 min
+2022-08-16 14:36:09.029115: W tensorflow/core/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata".
+2022-08-16 14:36:10.685796: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8400
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.597340, 
+ Eval_Loss: 0.000000, Eval_accuracy: 0.492063, test on: continuity
+W0816 14:39:49.154768 140293149226112 train_LSTM.py:314] Epoch: 0, Train_Loss: 0.597340, 
+ Eval_Loss: 0.000000, Eval_accuracy: 0.492063, test on: continuity
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.597340, 
+ Eval_Loss: 0.000000, Eval_accuracy: 0.865079, test on: solidity
+W0816 14:43:20.978650 140293149226112 train_LSTM.py:314] Epoch: 0, Train_Loss: 0.597340, 
+ Eval_Loss: 0.000000, Eval_accuracy: 0.865079, test on: solidity
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.597340, 
+ Eval_Loss: 0.000000, Eval_accuracy: 0.547619, test on: directional_inertia
+W0816 14:46:57.113783 140293149226112 train_LSTM.py:314] Epoch: 0, Train_Loss: 0.597340, 
+ Eval_Loss: 0.000000, Eval_accuracy: 0.547619, test on: directional_inertia
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.597340, 
+ Eval_Loss: 0.000000, Eval_accuracy: 0.031746, test on: unchangeableness
+W0816 14:50:45.934340 140293149226112 train_LSTM.py:314] Epoch: 0, Train_Loss: 0.597340, 
+ Eval_Loss: 0.000000, Eval_accuracy: 0.031746, test on: unchangeableness
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.597340, 
+ Eval_Loss: 0.000000, Eval_accuracy: 0.269841, test on: object_persistence
+W0816 14:54:35.803449 140293149226112 train_LSTM.py:314] Epoch: 0, Train_Loss: 0.597340, 
+ Eval_Loss: 0.000000, Eval_accuracy: 0.269841, test on: object_persistence
+WARNING:tensorflow:Time: 1:03:29.705038 for 1 epochs
+W0816 14:54:35.804546 140293149226112 train_LSTM.py:325] Time: 1:03:29.705038 for 1 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-1
+W0816 14:54:36.158526 140293149226112 train_LSTM.py:333] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-1

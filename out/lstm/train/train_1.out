@@ -1,0 +1,997 @@
+2022-08-21 04:03:41.077625: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-08-21 04:03:42.547785: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-08-21 04:03:42.920865: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22126 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:65:00.0, compute capability: 8.6
+2022-08-21 04:03:44.389663: I tensorflow/stream_executor/cuda/cuda_blas.cc:1786] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.319552, proceeding to images: 80000, time left for the epoch: 31.70 min
+W0821 04:15:47.897788 140633897510016 train_LSTM.py:296] Epoch: 0, Train_Loss: 0.319552, proceeding to images: 80000, time left for the epoch: 31.70 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.219483, proceeding to images: 160000, time left for the epoch: 19.66 min
+W0821 04:27:55.391168 140633897510016 train_LSTM.py:296] Epoch: 0, Train_Loss: 0.219483, proceeding to images: 160000, time left for the epoch: 19.66 min
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.209170, proceeding to images: 240000, time left for the epoch: 7.57 min
+W0821 04:40:04.643133 140633897510016 train_LSTM.py:296] Epoch: 0, Train_Loss: 0.209170, proceeding to images: 240000, time left for the epoch: 7.57 min
+2022-08-21 04:47:40.098208: W tensorflow/core/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata".
+2022-08-21 04:47:41.490695: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8400
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.204934, 
+ Relative_surprise:0.000380, Eval_accuracy: 0.517843, Eval_relative_accuracy: 0.507882, Test on: continuity
+W0821 04:49:41.916828 140633897510016 train_LSTM.py:330] Epoch: 0, Train_Loss: 0.204934, 
+ Relative_surprise:0.000380, Eval_accuracy: 0.517843, Eval_relative_accuracy: 0.507882, Test on: continuity
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.204934, 
+ Relative_surprise:0.000277, Eval_accuracy: 0.505686, Eval_relative_accuracy: 0.502883, Test on: solidity
+W0821 04:51:43.769780 140633897510016 train_LSTM.py:330] Epoch: 0, Train_Loss: 0.204934, 
+ Relative_surprise:0.000277, Eval_accuracy: 0.505686, Eval_relative_accuracy: 0.502883, Test on: solidity
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.204934, 
+ Relative_surprise:0.000074, Eval_accuracy: 0.495294, Eval_relative_accuracy: 0.497117, Test on: directional_inertia
+W0821 04:53:51.080407 140633897510016 train_LSTM.py:330] Epoch: 0, Train_Loss: 0.204934, 
+ Relative_surprise:0.000074, Eval_accuracy: 0.495294, Eval_relative_accuracy: 0.497117, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.204934, 
+ Relative_surprise:0.000337, Eval_accuracy: 0.536863, Eval_relative_accuracy: 0.519416, Test on: unchangeableness
+W0821 04:56:15.520492 140633897510016 train_LSTM.py:330] Epoch: 0, Train_Loss: 0.204934, 
+ Relative_surprise:0.000337, Eval_accuracy: 0.536863, Eval_relative_accuracy: 0.519416, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 0, Train_Loss: 0.204934, 
+ Relative_surprise:0.000739, Eval_accuracy: 0.519020, Eval_relative_accuracy: 0.531334, Test on: object_persistence
+W0821 04:58:40.165250 140633897510016 train_LSTM.py:330] Epoch: 0, Train_Loss: 0.204934, 
+ Relative_surprise:0.000739, Eval_accuracy: 0.519020, Eval_relative_accuracy: 0.531334, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:56.819436 for 1 epochs
+W0821 04:58:40.168415 140633897510016 train_LSTM.py:343] Time: 0:54:56.819436 for 1 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-1
+W0821 04:58:40.624303 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-1
+WARNING:tensorflow:Epoch: 1, Train_Loss: 0.201598, proceeding to images: 80000, time left for the epoch: 31.65 min
+W0821 05:10:44.167852 140633897510016 train_LSTM.py:296] Epoch: 1, Train_Loss: 0.201598, proceeding to images: 80000, time left for the epoch: 31.65 min
+WARNING:tensorflow:Epoch: 1, Train_Loss: 0.199129, proceeding to images: 160000, time left for the epoch: 19.58 min
+W0821 05:22:46.807656 140633897510016 train_LSTM.py:296] Epoch: 1, Train_Loss: 0.199129, proceeding to images: 160000, time left for the epoch: 19.58 min
+WARNING:tensorflow:Epoch: 1, Train_Loss: 0.196777, proceeding to images: 240000, time left for the epoch: 7.53 min
+W0821 05:34:49.703577 140633897510016 train_LSTM.py:296] Epoch: 1, Train_Loss: 0.196777, proceeding to images: 240000, time left for the epoch: 7.53 min
+WARNING:tensorflow:Epoch: 1, Train_Loss: 0.195619, 
+ Relative_surprise:0.000696, Eval_accuracy: 0.518235, Eval_relative_accuracy: 0.505959, Test on: continuity
+W0821 05:44:25.803759 140633897510016 train_LSTM.py:330] Epoch: 1, Train_Loss: 0.195619, 
+ Relative_surprise:0.000696, Eval_accuracy: 0.518235, Eval_relative_accuracy: 0.505959, Test on: continuity
+WARNING:tensorflow:Epoch: 1, Train_Loss: 0.195619, 
+ Relative_surprise:0.000843, Eval_accuracy: 0.524314, Eval_relative_accuracy: 0.536332, Test on: solidity
+W0821 05:46:25.082045 140633897510016 train_LSTM.py:330] Epoch: 1, Train_Loss: 0.195619, 
+ Relative_surprise:0.000843, Eval_accuracy: 0.524314, Eval_relative_accuracy: 0.536332, Test on: solidity
+WARNING:tensorflow:Epoch: 1, Train_Loss: 0.195619, 
+ Relative_surprise:0.000941, Eval_accuracy: 0.515098, Eval_relative_accuracy: 0.527105, Test on: directional_inertia
+W0821 05:48:24.733196 140633897510016 train_LSTM.py:330] Epoch: 1, Train_Loss: 0.195619, 
+ Relative_surprise:0.000941, Eval_accuracy: 0.515098, Eval_relative_accuracy: 0.527105, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 1, Train_Loss: 0.195619, 
+ Relative_surprise:0.001355, Eval_accuracy: 0.582353, Eval_relative_accuracy: 0.567474, Test on: unchangeableness
+W0821 05:50:26.343126 140633897510016 train_LSTM.py:330] Epoch: 1, Train_Loss: 0.195619, 
+ Relative_surprise:0.001355, Eval_accuracy: 0.582353, Eval_relative_accuracy: 0.567474, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 1, Train_Loss: 0.195619, 
+ Relative_surprise:0.001734, Eval_accuracy: 0.554706, Eval_relative_accuracy: 0.559016, Test on: object_persistence
+W0821 05:52:26.759343 140633897510016 train_LSTM.py:330] Epoch: 1, Train_Loss: 0.195619, 
+ Relative_surprise:0.001734, Eval_accuracy: 0.554706, Eval_relative_accuracy: 0.559016, Test on: object_persistence
+WARNING:tensorflow:Time: 0:53:46.137293 for 2 epochs
+W0821 05:52:26.761792 140633897510016 train_LSTM.py:343] Time: 0:53:46.137293 for 2 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-2
+W0821 05:52:27.127042 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-2
+WARNING:tensorflow:Epoch: 2, Train_Loss: 0.194643, proceeding to images: 80000, time left for the epoch: 31.63 min
+W0821 06:04:30.003633 140633897510016 train_LSTM.py:296] Epoch: 2, Train_Loss: 0.194643, proceeding to images: 80000, time left for the epoch: 31.63 min
+WARNING:tensorflow:Epoch: 2, Train_Loss: 0.194597, proceeding to images: 160000, time left for the epoch: 19.58 min
+W0821 06:16:32.966803 140633897510016 train_LSTM.py:296] Epoch: 2, Train_Loss: 0.194597, proceeding to images: 160000, time left for the epoch: 19.58 min
+WARNING:tensorflow:Epoch: 2, Train_Loss: 0.193675, proceeding to images: 240000, time left for the epoch: 7.54 min
+W0821 06:28:38.042169 140633897510016 train_LSTM.py:296] Epoch: 2, Train_Loss: 0.193675, proceeding to images: 240000, time left for the epoch: 7.54 min
+WARNING:tensorflow:Epoch: 2, Train_Loss: 0.193240, 
+ Relative_surprise:0.001754, Eval_accuracy: 0.539608, Eval_relative_accuracy: 0.534794, Test on: continuity
+W0821 06:38:13.759030 140633897510016 train_LSTM.py:330] Epoch: 2, Train_Loss: 0.193240, 
+ Relative_surprise:0.001754, Eval_accuracy: 0.539608, Eval_relative_accuracy: 0.534794, Test on: continuity
+WARNING:tensorflow:Epoch: 2, Train_Loss: 0.193240, 
+ Relative_surprise:0.001688, Eval_accuracy: 0.515882, Eval_relative_accuracy: 0.517493, Test on: solidity
+W0821 06:40:13.135134 140633897510016 train_LSTM.py:330] Epoch: 2, Train_Loss: 0.193240, 
+ Relative_surprise:0.001688, Eval_accuracy: 0.515882, Eval_relative_accuracy: 0.517493, Test on: solidity
+WARNING:tensorflow:Epoch: 2, Train_Loss: 0.193240, 
+ Relative_surprise:0.001752, Eval_accuracy: 0.538235, Eval_relative_accuracy: 0.533256, Test on: directional_inertia
+W0821 06:42:14.020578 140633897510016 train_LSTM.py:330] Epoch: 2, Train_Loss: 0.193240, 
+ Relative_surprise:0.001752, Eval_accuracy: 0.538235, Eval_relative_accuracy: 0.533256, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 2, Train_Loss: 0.193240, 
+ Relative_surprise:0.001891, Eval_accuracy: 0.550588, Eval_relative_accuracy: 0.555171, Test on: unchangeableness
+W0821 06:44:15.883759 140633897510016 train_LSTM.py:330] Epoch: 2, Train_Loss: 0.193240, 
+ Relative_surprise:0.001891, Eval_accuracy: 0.550588, Eval_relative_accuracy: 0.555171, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 2, Train_Loss: 0.193240, 
+ Relative_surprise:0.002377, Eval_accuracy: 0.580196, Eval_relative_accuracy: 0.583622, Test on: object_persistence
+W0821 06:46:16.574182 140633897510016 train_LSTM.py:330] Epoch: 2, Train_Loss: 0.193240, 
+ Relative_surprise:0.002377, Eval_accuracy: 0.580196, Eval_relative_accuracy: 0.583622, Test on: object_persistence
+WARNING:tensorflow:Time: 0:53:49.450146 for 3 epochs
+W0821 06:46:16.577408 140633897510016 train_LSTM.py:343] Time: 0:53:49.450146 for 3 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-3
+W0821 06:46:16.848588 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-3
+WARNING:tensorflow:Epoch: 3, Train_Loss: 0.192682, proceeding to images: 80000, time left for the epoch: 31.75 min
+W0821 06:58:22.509880 140633897510016 train_LSTM.py:296] Epoch: 3, Train_Loss: 0.192682, proceeding to images: 80000, time left for the epoch: 31.75 min
+WARNING:tensorflow:Epoch: 3, Train_Loss: 0.193019, proceeding to images: 160000, time left for the epoch: 19.67 min
+W0821 07:10:29.140130 140633897510016 train_LSTM.py:296] Epoch: 3, Train_Loss: 0.193019, proceeding to images: 160000, time left for the epoch: 19.67 min
+WARNING:tensorflow:Epoch: 3, Train_Loss: 0.192337, proceeding to images: 240000, time left for the epoch: 7.55 min
+W0821 07:22:32.276587 140633897510016 train_LSTM.py:296] Epoch: 3, Train_Loss: 0.192337, proceeding to images: 240000, time left for the epoch: 7.55 min
+WARNING:tensorflow:Epoch: 3, Train_Loss: 0.191986, 
+ Relative_surprise:0.002275, Eval_accuracy: 0.502353, Eval_relative_accuracy: 0.518647, Test on: continuity
+W0821 07:32:16.670521 140633897510016 train_LSTM.py:330] Epoch: 3, Train_Loss: 0.191986, 
+ Relative_surprise:0.002275, Eval_accuracy: 0.502353, Eval_relative_accuracy: 0.518647, Test on: continuity
+WARNING:tensorflow:Epoch: 3, Train_Loss: 0.191986, 
+ Relative_surprise:0.002087, Eval_accuracy: 0.466667, Eval_relative_accuracy: 0.479431, Test on: solidity
+W0821 07:34:18.919925 140633897510016 train_LSTM.py:330] Epoch: 3, Train_Loss: 0.191986, 
+ Relative_surprise:0.002087, Eval_accuracy: 0.466667, Eval_relative_accuracy: 0.479431, Test on: solidity
+WARNING:tensorflow:Epoch: 3, Train_Loss: 0.191986, 
+ Relative_surprise:0.002157, Eval_accuracy: 0.532157, Eval_relative_accuracy: 0.542099, Test on: directional_inertia
+W0821 07:36:24.723985 140633897510016 train_LSTM.py:330] Epoch: 3, Train_Loss: 0.191986, 
+ Relative_surprise:0.002157, Eval_accuracy: 0.532157, Eval_relative_accuracy: 0.542099, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 3, Train_Loss: 0.191986, 
+ Relative_surprise:0.002233, Eval_accuracy: 0.571569, Eval_relative_accuracy: 0.552864, Test on: unchangeableness
+W0821 07:38:40.304352 140633897510016 train_LSTM.py:330] Epoch: 3, Train_Loss: 0.191986, 
+ Relative_surprise:0.002233, Eval_accuracy: 0.571569, Eval_relative_accuracy: 0.552864, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 3, Train_Loss: 0.191986, 
+ Relative_surprise:0.002420, Eval_accuracy: 0.554510, Eval_relative_accuracy: 0.567859, Test on: object_persistence
+W0821 07:40:55.301870 140633897510016 train_LSTM.py:330] Epoch: 3, Train_Loss: 0.191986, 
+ Relative_surprise:0.002420, Eval_accuracy: 0.554510, Eval_relative_accuracy: 0.567859, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:38.455296 for 4 epochs
+W0821 07:40:55.304193 140633897510016 train_LSTM.py:343] Time: 0:54:38.455296 for 4 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-4
+W0821 07:40:55.649399 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-4
+WARNING:tensorflow:Epoch: 4, Train_Loss: 0.191580, proceeding to images: 80000, time left for the epoch: 31.78 min
+W0821 07:53:02.044425 140633897510016 train_LSTM.py:296] Epoch: 4, Train_Loss: 0.191580, proceeding to images: 80000, time left for the epoch: 31.78 min
+WARNING:tensorflow:Epoch: 4, Train_Loss: 0.191976, proceeding to images: 160000, time left for the epoch: 19.66 min
+W0821 08:05:07.256309 140633897510016 train_LSTM.py:296] Epoch: 4, Train_Loss: 0.191976, proceeding to images: 160000, time left for the epoch: 19.66 min
+WARNING:tensorflow:Epoch: 4, Train_Loss: 0.191459, proceeding to images: 240000, time left for the epoch: 7.57 min
+W0821 08:17:14.812226 140633897510016 train_LSTM.py:296] Epoch: 4, Train_Loss: 0.191459, proceeding to images: 240000, time left for the epoch: 7.57 min
+WARNING:tensorflow:Epoch: 4, Train_Loss: 0.191169, 
+ Relative_surprise:0.002339, Eval_accuracy: 0.514118, Eval_relative_accuracy: 0.516724, Test on: continuity
+W0821 08:26:50.089420 140633897510016 train_LSTM.py:330] Epoch: 4, Train_Loss: 0.191169, 
+ Relative_surprise:0.002339, Eval_accuracy: 0.514118, Eval_relative_accuracy: 0.516724, Test on: continuity
+WARNING:tensorflow:Epoch: 4, Train_Loss: 0.191169, 
+ Relative_surprise:0.002263, Eval_accuracy: 0.503922, Eval_relative_accuracy: 0.517878, Test on: solidity
+W0821 08:28:50.066075 140633897510016 train_LSTM.py:330] Epoch: 4, Train_Loss: 0.191169, 
+ Relative_surprise:0.002263, Eval_accuracy: 0.503922, Eval_relative_accuracy: 0.517878, Test on: solidity
+WARNING:tensorflow:Epoch: 4, Train_Loss: 0.191169, 
+ Relative_surprise:0.002292, Eval_accuracy: 0.541961, Eval_relative_accuracy: 0.549789, Test on: directional_inertia
+W0821 08:30:49.870941 140633897510016 train_LSTM.py:330] Epoch: 4, Train_Loss: 0.191169, 
+ Relative_surprise:0.002292, Eval_accuracy: 0.541961, Eval_relative_accuracy: 0.549789, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 4, Train_Loss: 0.191169, 
+ Relative_surprise:0.002317, Eval_accuracy: 0.532549, Eval_relative_accuracy: 0.541715, Test on: unchangeableness
+W0821 08:32:54.327996 140633897510016 train_LSTM.py:330] Epoch: 4, Train_Loss: 0.191169, 
+ Relative_surprise:0.002317, Eval_accuracy: 0.532549, Eval_relative_accuracy: 0.541715, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 4, Train_Loss: 0.191169, 
+ Relative_surprise:0.002536, Eval_accuracy: 0.574706, Eval_relative_accuracy: 0.586697, Test on: object_persistence
+W0821 08:34:56.645863 140633897510016 train_LSTM.py:330] Epoch: 4, Train_Loss: 0.191169, 
+ Relative_surprise:0.002536, Eval_accuracy: 0.574706, Eval_relative_accuracy: 0.586697, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:00.999398 for 5 epochs
+W0821 08:34:56.649095 140633897510016 train_LSTM.py:343] Time: 0:54:00.999398 for 5 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-5
+W0821 08:34:57.008082 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-5
+WARNING:tensorflow:Epoch: 5, Train_Loss: 0.190815, proceeding to images: 80000, time left for the epoch: 31.58 min
+W0821 08:46:58.835986 140633897510016 train_LSTM.py:296] Epoch: 5, Train_Loss: 0.190815, proceeding to images: 80000, time left for the epoch: 31.58 min
+WARNING:tensorflow:Epoch: 5, Train_Loss: 0.191368, proceeding to images: 160000, time left for the epoch: 19.60 min
+W0821 08:59:04.371831 140633897510016 train_LSTM.py:296] Epoch: 5, Train_Loss: 0.191368, proceeding to images: 160000, time left for the epoch: 19.60 min
+WARNING:tensorflow:Epoch: 5, Train_Loss: 0.191588, proceeding to images: 240000, time left for the epoch: 7.54 min
+W0821 09:11:09.843055 140633897510016 train_LSTM.py:296] Epoch: 5, Train_Loss: 0.191588, proceeding to images: 240000, time left for the epoch: 7.54 min
+WARNING:tensorflow:Epoch: 5, Train_Loss: 0.190853, 
+ Relative_surprise:0.002524, Eval_accuracy: 0.546667, Eval_relative_accuracy: 0.546328, Test on: continuity
+W0821 09:20:50.421274 140633897510016 train_LSTM.py:330] Epoch: 5, Train_Loss: 0.190853, 
+ Relative_surprise:0.002524, Eval_accuracy: 0.546667, Eval_relative_accuracy: 0.546328, Test on: continuity
+WARNING:tensorflow:Epoch: 5, Train_Loss: 0.190853, 
+ Relative_surprise:0.002429, Eval_accuracy: 0.483333, Eval_relative_accuracy: 0.497117, Test on: solidity
+W0821 09:22:52.252953 140633897510016 train_LSTM.py:330] Epoch: 5, Train_Loss: 0.190853, 
+ Relative_surprise:0.002429, Eval_accuracy: 0.483333, Eval_relative_accuracy: 0.497117, Test on: solidity
+WARNING:tensorflow:Epoch: 5, Train_Loss: 0.190853, 
+ Relative_surprise:0.002500, Eval_accuracy: 0.534510, Eval_relative_accuracy: 0.557093, Test on: directional_inertia
+W0821 09:24:55.191800 140633897510016 train_LSTM.py:330] Epoch: 5, Train_Loss: 0.190853, 
+ Relative_surprise:0.002500, Eval_accuracy: 0.534510, Eval_relative_accuracy: 0.557093, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 5, Train_Loss: 0.190853, 
+ Relative_surprise:0.002469, Eval_accuracy: 0.530000, Eval_relative_accuracy: 0.515571, Test on: unchangeableness
+W0821 09:26:58.261526 140633897510016 train_LSTM.py:330] Epoch: 5, Train_Loss: 0.190853, 
+ Relative_surprise:0.002469, Eval_accuracy: 0.530000, Eval_relative_accuracy: 0.515571, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 5, Train_Loss: 0.190853, 
+ Relative_surprise:0.002702, Eval_accuracy: 0.582745, Eval_relative_accuracy: 0.574779, Test on: object_persistence
+W0821 09:28:58.885216 140633897510016 train_LSTM.py:330] Epoch: 5, Train_Loss: 0.190853, 
+ Relative_surprise:0.002702, Eval_accuracy: 0.582745, Eval_relative_accuracy: 0.574779, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:01.879270 for 6 epochs
+W0821 09:28:58.887621 140633897510016 train_LSTM.py:343] Time: 0:54:01.879270 for 6 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-6
+W0821 09:28:59.203459 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-6
+WARNING:tensorflow:Epoch: 6, Train_Loss: 0.190403, proceeding to images: 80000, time left for the epoch: 31.81 min
+W0821 09:41:06.256956 140633897510016 train_LSTM.py:296] Epoch: 6, Train_Loss: 0.190403, proceeding to images: 80000, time left for the epoch: 31.81 min
+WARNING:tensorflow:Epoch: 6, Train_Loss: 0.190921, proceeding to images: 160000, time left for the epoch: 19.69 min
+W0821 09:53:13.076254 140633897510016 train_LSTM.py:296] Epoch: 6, Train_Loss: 0.190921, proceeding to images: 160000, time left for the epoch: 19.69 min
+WARNING:tensorflow:Epoch: 6, Train_Loss: 0.190441, proceeding to images: 240000, time left for the epoch: 7.58 min
+W0821 10:05:21.775218 140633897510016 train_LSTM.py:296] Epoch: 6, Train_Loss: 0.190441, proceeding to images: 240000, time left for the epoch: 7.58 min
+WARNING:tensorflow:Epoch: 6, Train_Loss: 0.190213, 
+ Relative_surprise:0.002672, Eval_accuracy: 0.529608, Eval_relative_accuracy: 0.528258, Test on: continuity
+W0821 10:14:58.033869 140633897510016 train_LSTM.py:330] Epoch: 6, Train_Loss: 0.190213, 
+ Relative_surprise:0.002672, Eval_accuracy: 0.529608, Eval_relative_accuracy: 0.528258, Test on: continuity
+WARNING:tensorflow:Epoch: 6, Train_Loss: 0.190213, 
+ Relative_surprise:0.002607, Eval_accuracy: 0.505098, Eval_relative_accuracy: 0.515571, Test on: solidity
+W0821 10:16:57.920379 140633897510016 train_LSTM.py:330] Epoch: 6, Train_Loss: 0.190213, 
+ Relative_surprise:0.002607, Eval_accuracy: 0.505098, Eval_relative_accuracy: 0.515571, Test on: solidity
+WARNING:tensorflow:Epoch: 6, Train_Loss: 0.190213, 
+ Relative_surprise:0.002646, Eval_accuracy: 0.535294, Eval_relative_accuracy: 0.564398, Test on: directional_inertia
+W0821 10:18:58.181756 140633897510016 train_LSTM.py:330] Epoch: 6, Train_Loss: 0.190213, 
+ Relative_surprise:0.002646, Eval_accuracy: 0.535294, Eval_relative_accuracy: 0.564398, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 6, Train_Loss: 0.190213, 
+ Relative_surprise:0.002629, Eval_accuracy: 0.533529, Eval_relative_accuracy: 0.529796, Test on: unchangeableness
+W0821 10:20:59.855726 140633897510016 train_LSTM.py:330] Epoch: 6, Train_Loss: 0.190213, 
+ Relative_surprise:0.002629, Eval_accuracy: 0.533529, Eval_relative_accuracy: 0.529796, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 6, Train_Loss: 0.190213, 
+ Relative_surprise:0.002814, Eval_accuracy: 0.581765, Eval_relative_accuracy: 0.589389, Test on: object_persistence
+W0821 10:23:00.072305 140633897510016 train_LSTM.py:330] Epoch: 6, Train_Loss: 0.190213, 
+ Relative_surprise:0.002814, Eval_accuracy: 0.581765, Eval_relative_accuracy: 0.589389, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:00.870913 for 7 epochs
+W0821 10:23:00.074543 140633897510016 train_LSTM.py:343] Time: 0:54:00.870913 for 7 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-7
+W0821 10:23:00.421091 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-7
+WARNING:tensorflow:Epoch: 7, Train_Loss: 0.189973, proceeding to images: 80000, time left for the epoch: 31.91 min
+W0821 10:35:09.764220 140633897510016 train_LSTM.py:296] Epoch: 7, Train_Loss: 0.189973, proceeding to images: 80000, time left for the epoch: 31.91 min
+WARNING:tensorflow:Epoch: 7, Train_Loss: 0.190518, proceeding to images: 160000, time left for the epoch: 19.74 min
+W0821 10:47:17.882854 140633897510016 train_LSTM.py:296] Epoch: 7, Train_Loss: 0.190518, proceeding to images: 160000, time left for the epoch: 19.74 min
+WARNING:tensorflow:Epoch: 7, Train_Loss: 0.190056, proceeding to images: 240000, time left for the epoch: 7.59 min
+W0821 10:59:26.480242 140633897510016 train_LSTM.py:296] Epoch: 7, Train_Loss: 0.190056, proceeding to images: 240000, time left for the epoch: 7.59 min
+WARNING:tensorflow:Epoch: 7, Train_Loss: 0.189914, 
+ Relative_surprise:0.002816, Eval_accuracy: 0.569608, Eval_relative_accuracy: 0.546713, Test on: continuity
+W0821 11:09:01.385075 140633897510016 train_LSTM.py:330] Epoch: 7, Train_Loss: 0.189914, 
+ Relative_surprise:0.002816, Eval_accuracy: 0.569608, Eval_relative_accuracy: 0.546713, Test on: continuity
+WARNING:tensorflow:Epoch: 7, Train_Loss: 0.189914, 
+ Relative_surprise:0.002843, Eval_accuracy: 0.547059, Eval_relative_accuracy: 0.562092, Test on: solidity
+W0821 11:11:00.700590 140633897510016 train_LSTM.py:330] Epoch: 7, Train_Loss: 0.189914, 
+ Relative_surprise:0.002843, Eval_accuracy: 0.547059, Eval_relative_accuracy: 0.562092, Test on: solidity
+WARNING:tensorflow:Epoch: 7, Train_Loss: 0.189914, 
+ Relative_surprise:0.002888, Eval_accuracy: 0.545686, Eval_relative_accuracy: 0.553633, Test on: directional_inertia
+W0821 11:13:00.643975 140633897510016 train_LSTM.py:330] Epoch: 7, Train_Loss: 0.189914, 
+ Relative_surprise:0.002888, Eval_accuracy: 0.545686, Eval_relative_accuracy: 0.553633, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 7, Train_Loss: 0.189914, 
+ Relative_surprise:0.002871, Eval_accuracy: 0.552941, Eval_relative_accuracy: 0.536717, Test on: unchangeableness
+W0821 11:15:15.542079 140633897510016 train_LSTM.py:330] Epoch: 7, Train_Loss: 0.189914, 
+ Relative_surprise:0.002871, Eval_accuracy: 0.552941, Eval_relative_accuracy: 0.536717, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 7, Train_Loss: 0.189914, 
+ Relative_surprise:0.003048, Eval_accuracy: 0.579608, Eval_relative_accuracy: 0.602461, Test on: object_persistence
+W0821 11:17:23.276840 140633897510016 train_LSTM.py:330] Epoch: 7, Train_Loss: 0.189914, 
+ Relative_surprise:0.003048, Eval_accuracy: 0.579608, Eval_relative_accuracy: 0.602461, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:22.857981 for 8 epochs
+W0821 11:17:23.279246 140633897510016 train_LSTM.py:343] Time: 0:54:22.857981 for 8 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-8
+W0821 11:17:23.596962 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-8
+WARNING:tensorflow:Epoch: 8, Train_Loss: 0.189653, proceeding to images: 80000, time left for the epoch: 31.82 min
+W0821 11:29:30.821251 140633897510016 train_LSTM.py:296] Epoch: 8, Train_Loss: 0.189653, proceeding to images: 80000, time left for the epoch: 31.82 min
+WARNING:tensorflow:Epoch: 8, Train_Loss: 0.190201, proceeding to images: 160000, time left for the epoch: 19.70 min
+W0821 11:41:38.524767 140633897510016 train_LSTM.py:296] Epoch: 8, Train_Loss: 0.190201, proceeding to images: 160000, time left for the epoch: 19.70 min
+WARNING:tensorflow:Epoch: 8, Train_Loss: 0.189789, proceeding to images: 240000, time left for the epoch: 7.57 min
+W0821 11:53:44.437601 140633897510016 train_LSTM.py:296] Epoch: 8, Train_Loss: 0.189789, proceeding to images: 240000, time left for the epoch: 7.57 min
+WARNING:tensorflow:Epoch: 8, Train_Loss: 0.189661, 
+ Relative_surprise:0.003025, Eval_accuracy: 0.540784, Eval_relative_accuracy: 0.539792, Test on: continuity
+W0821 12:03:26.337174 140633897510016 train_LSTM.py:330] Epoch: 8, Train_Loss: 0.189661, 
+ Relative_surprise:0.003025, Eval_accuracy: 0.540784, Eval_relative_accuracy: 0.539792, Test on: continuity
+WARNING:tensorflow:Epoch: 8, Train_Loss: 0.189661, 
+ Relative_surprise:0.003056, Eval_accuracy: 0.570784, Eval_relative_accuracy: 0.602845, Test on: solidity
+W0821 12:05:30.569339 140633897510016 train_LSTM.py:330] Epoch: 8, Train_Loss: 0.189661, 
+ Relative_surprise:0.003056, Eval_accuracy: 0.570784, Eval_relative_accuracy: 0.602845, Test on: solidity
+WARNING:tensorflow:Epoch: 8, Train_Loss: 0.189661, 
+ Relative_surprise:0.003081, Eval_accuracy: 0.546863, Eval_relative_accuracy: 0.569781, Test on: directional_inertia
+W0821 12:07:39.472727 140633897510016 train_LSTM.py:330] Epoch: 8, Train_Loss: 0.189661, 
+ Relative_surprise:0.003081, Eval_accuracy: 0.546863, Eval_relative_accuracy: 0.569781, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 8, Train_Loss: 0.189661, 
+ Relative_surprise:0.003048, Eval_accuracy: 0.530588, Eval_relative_accuracy: 0.528643, Test on: unchangeableness
+W0821 12:09:59.138409 140633897510016 train_LSTM.py:330] Epoch: 8, Train_Loss: 0.189661, 
+ Relative_surprise:0.003048, Eval_accuracy: 0.530588, Eval_relative_accuracy: 0.528643, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 8, Train_Loss: 0.189661, 
+ Relative_surprise:0.003204, Eval_accuracy: 0.580196, Eval_relative_accuracy: 0.594002, Test on: object_persistence
+W0821 12:12:09.918119 140633897510016 train_LSTM.py:330] Epoch: 8, Train_Loss: 0.189661, 
+ Relative_surprise:0.003204, Eval_accuracy: 0.580196, Eval_relative_accuracy: 0.594002, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:46.323826 for 9 epochs
+W0821 12:12:09.920961 140633897510016 train_LSTM.py:343] Time: 0:54:46.323826 for 9 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-9
+W0821 12:12:10.290238 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-9
+WARNING:tensorflow:Epoch: 9, Train_Loss: 0.189353, proceeding to images: 80000, time left for the epoch: 31.77 min
+W0821 12:24:16.574469 140633897510016 train_LSTM.py:296] Epoch: 9, Train_Loss: 0.189353, proceeding to images: 80000, time left for the epoch: 31.77 min
+WARNING:tensorflow:Epoch: 9, Train_Loss: 0.189982, proceeding to images: 160000, time left for the epoch: 19.70 min
+W0821 12:36:25.274698 140633897510016 train_LSTM.py:296] Epoch: 9, Train_Loss: 0.189982, proceeding to images: 160000, time left for the epoch: 19.70 min
+WARNING:tensorflow:Epoch: 9, Train_Loss: 0.189545, proceeding to images: 240000, time left for the epoch: 7.57 min
+W0821 12:48:31.461637 140633897510016 train_LSTM.py:296] Epoch: 9, Train_Loss: 0.189545, proceeding to images: 240000, time left for the epoch: 7.57 min
+WARNING:tensorflow:Epoch: 9, Train_Loss: 0.189412, 
+ Relative_surprise:0.003209, Eval_accuracy: 0.567059, Eval_relative_accuracy: 0.560169, Test on: continuity
+W0821 12:58:08.067983 140633897510016 train_LSTM.py:330] Epoch: 9, Train_Loss: 0.189412, 
+ Relative_surprise:0.003209, Eval_accuracy: 0.567059, Eval_relative_accuracy: 0.560169, Test on: continuity
+WARNING:tensorflow:Epoch: 9, Train_Loss: 0.189412, 
+ Relative_surprise:0.003241, Eval_accuracy: 0.578431, Eval_relative_accuracy: 0.596694, Test on: solidity
+W0821 13:00:07.550456 140633897510016 train_LSTM.py:330] Epoch: 9, Train_Loss: 0.189412, 
+ Relative_surprise:0.003241, Eval_accuracy: 0.578431, Eval_relative_accuracy: 0.596694, Test on: solidity
+WARNING:tensorflow:Epoch: 9, Train_Loss: 0.189412, 
+ Relative_surprise:0.003256, Eval_accuracy: 0.569412, Eval_relative_accuracy: 0.564398, Test on: directional_inertia
+W0821 13:02:07.628281 140633897510016 train_LSTM.py:330] Epoch: 9, Train_Loss: 0.189412, 
+ Relative_surprise:0.003256, Eval_accuracy: 0.569412, Eval_relative_accuracy: 0.564398, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 9, Train_Loss: 0.189412, 
+ Relative_surprise:0.003232, Eval_accuracy: 0.526667, Eval_relative_accuracy: 0.534794, Test on: unchangeableness
+W0821 13:04:09.185978 140633897510016 train_LSTM.py:330] Epoch: 9, Train_Loss: 0.189412, 
+ Relative_surprise:0.003232, Eval_accuracy: 0.526667, Eval_relative_accuracy: 0.534794, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 9, Train_Loss: 0.189412, 
+ Relative_surprise:0.003353, Eval_accuracy: 0.584706, Eval_relative_accuracy: 0.623222, Test on: object_persistence
+W0821 13:06:08.786400 140633897510016 train_LSTM.py:330] Epoch: 9, Train_Loss: 0.189412, 
+ Relative_surprise:0.003353, Eval_accuracy: 0.584706, Eval_relative_accuracy: 0.623222, Test on: object_persistence
+WARNING:tensorflow:Time: 0:53:58.498221 for 10 epochs
+W0821 13:06:08.788657 140633897510016 train_LSTM.py:343] Time: 0:53:58.498221 for 10 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-10
+W0821 13:06:09.144464 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-10
+WARNING:tensorflow:Epoch: 10, Train_Loss: 0.189162, proceeding to images: 80000, time left for the epoch: 31.82 min
+W0821 13:18:16.411191 140633897510016 train_LSTM.py:296] Epoch: 10, Train_Loss: 0.189162, proceeding to images: 80000, time left for the epoch: 31.82 min
+WARNING:tensorflow:Epoch: 10, Train_Loss: 0.189783, proceeding to images: 160000, time left for the epoch: 19.72 min
+W0821 13:30:25.430041 140633897510016 train_LSTM.py:296] Epoch: 10, Train_Loss: 0.189783, proceeding to images: 160000, time left for the epoch: 19.72 min
+WARNING:tensorflow:Epoch: 10, Train_Loss: 0.189334, proceeding to images: 240000, time left for the epoch: 7.58 min
+W0821 13:42:32.957120 140633897510016 train_LSTM.py:296] Epoch: 10, Train_Loss: 0.189334, proceeding to images: 240000, time left for the epoch: 7.58 min
+WARNING:tensorflow:Epoch: 10, Train_Loss: 0.189221, 
+ Relative_surprise:0.003345, Eval_accuracy: 0.542745, Eval_relative_accuracy: 0.549789, Test on: continuity
+W0821 13:52:12.931564 140633897510016 train_LSTM.py:330] Epoch: 10, Train_Loss: 0.189221, 
+ Relative_surprise:0.003345, Eval_accuracy: 0.542745, Eval_relative_accuracy: 0.549789, Test on: continuity
+WARNING:tensorflow:Epoch: 10, Train_Loss: 0.189221, 
+ Relative_surprise:0.003384, Eval_accuracy: 0.545294, Eval_relative_accuracy: 0.638216, Test on: solidity
+W0821 13:54:13.319714 140633897510016 train_LSTM.py:330] Epoch: 10, Train_Loss: 0.189221, 
+ Relative_surprise:0.003384, Eval_accuracy: 0.545294, Eval_relative_accuracy: 0.638216, Test on: solidity
+WARNING:tensorflow:Epoch: 10, Train_Loss: 0.189221, 
+ Relative_surprise:0.003411, Eval_accuracy: 0.554314, Eval_relative_accuracy: 0.571703, Test on: directional_inertia
+W0821 13:56:13.082240 140633897510016 train_LSTM.py:330] Epoch: 10, Train_Loss: 0.189221, 
+ Relative_surprise:0.003411, Eval_accuracy: 0.554314, Eval_relative_accuracy: 0.571703, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 10, Train_Loss: 0.189221, 
+ Relative_surprise:0.003378, Eval_accuracy: 0.522941, Eval_relative_accuracy: 0.524798, Test on: unchangeableness
+W0821 13:58:14.939243 140633897510016 train_LSTM.py:330] Epoch: 10, Train_Loss: 0.189221, 
+ Relative_surprise:0.003378, Eval_accuracy: 0.522941, Eval_relative_accuracy: 0.524798, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 10, Train_Loss: 0.189221, 
+ Relative_surprise:0.003549, Eval_accuracy: 0.600784, Eval_relative_accuracy: 0.637063, Test on: object_persistence
+W0821 14:00:15.172039 140633897510016 train_LSTM.py:330] Epoch: 10, Train_Loss: 0.189221, 
+ Relative_surprise:0.003549, Eval_accuracy: 0.600784, Eval_relative_accuracy: 0.637063, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:06.029910 for 11 epochs
+W0821 14:00:15.174529 140633897510016 train_LSTM.py:343] Time: 0:54:06.029910 for 11 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-11
+W0821 14:00:15.564141 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-11
+WARNING:tensorflow:Epoch: 11, Train_Loss: 0.188981, proceeding to images: 80000, time left for the epoch: 31.91 min
+W0821 14:12:24.984612 140633897510016 train_LSTM.py:296] Epoch: 11, Train_Loss: 0.188981, proceeding to images: 80000, time left for the epoch: 31.91 min
+WARNING:tensorflow:Epoch: 11, Train_Loss: 0.189593, proceeding to images: 160000, time left for the epoch: 19.72 min
+W0821 14:24:32.048364 140633897510016 train_LSTM.py:296] Epoch: 11, Train_Loss: 0.189593, proceeding to images: 160000, time left for the epoch: 19.72 min
+WARNING:tensorflow:Epoch: 11, Train_Loss: 0.189167, proceeding to images: 240000, time left for the epoch: 7.60 min
+W0821 14:36:43.215916 140633897510016 train_LSTM.py:296] Epoch: 11, Train_Loss: 0.189167, proceeding to images: 240000, time left for the epoch: 7.60 min
+WARNING:tensorflow:Epoch: 11, Train_Loss: 0.189080, 
+ Relative_surprise:0.003538, Eval_accuracy: 0.581176, Eval_relative_accuracy: 0.545944, Test on: continuity
+W0821 14:46:23.521420 140633897510016 train_LSTM.py:330] Epoch: 11, Train_Loss: 0.189080, 
+ Relative_surprise:0.003538, Eval_accuracy: 0.581176, Eval_relative_accuracy: 0.545944, Test on: continuity
+WARNING:tensorflow:Epoch: 11, Train_Loss: 0.189080, 
+ Relative_surprise:0.003537, Eval_accuracy: 0.566274, Eval_relative_accuracy: 0.570550, Test on: solidity
+W0821 14:48:24.724619 140633897510016 train_LSTM.py:330] Epoch: 11, Train_Loss: 0.189080, 
+ Relative_surprise:0.003537, Eval_accuracy: 0.566274, Eval_relative_accuracy: 0.570550, Test on: solidity
+WARNING:tensorflow:Epoch: 11, Train_Loss: 0.189080, 
+ Relative_surprise:0.003527, Eval_accuracy: 0.540392, Eval_relative_accuracy: 0.539408, Test on: directional_inertia
+W0821 14:50:24.290286 140633897510016 train_LSTM.py:330] Epoch: 11, Train_Loss: 0.189080, 
+ Relative_surprise:0.003527, Eval_accuracy: 0.540392, Eval_relative_accuracy: 0.539408, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 11, Train_Loss: 0.189080, 
+ Relative_surprise:0.003496, Eval_accuracy: 0.530784, Eval_relative_accuracy: 0.534794, Test on: unchangeableness
+W0821 14:52:31.752104 140633897510016 train_LSTM.py:330] Epoch: 11, Train_Loss: 0.189080, 
+ Relative_surprise:0.003496, Eval_accuracy: 0.530784, Eval_relative_accuracy: 0.534794, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 11, Train_Loss: 0.189080, 
+ Relative_surprise:0.003603, Eval_accuracy: 0.580784, Eval_relative_accuracy: 0.620531, Test on: object_persistence
+W0821 14:54:43.173312 140633897510016 train_LSTM.py:330] Epoch: 11, Train_Loss: 0.189080, 
+ Relative_surprise:0.003603, Eval_accuracy: 0.580784, Eval_relative_accuracy: 0.620531, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:27.611370 for 12 epochs
+W0821 14:54:43.175695 140633897510016 train_LSTM.py:343] Time: 0:54:27.611370 for 12 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-12
+W0821 14:54:43.554050 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-12
+WARNING:tensorflow:Epoch: 12, Train_Loss: 0.188785, proceeding to images: 80000, time left for the epoch: 31.96 min
+W0821 15:06:53.986161 140633897510016 train_LSTM.py:296] Epoch: 12, Train_Loss: 0.188785, proceeding to images: 80000, time left for the epoch: 31.96 min
+WARNING:tensorflow:Epoch: 12, Train_Loss: 0.189449, proceeding to images: 160000, time left for the epoch: 19.76 min
+W0821 15:19:02.776818 140633897510016 train_LSTM.py:296] Epoch: 12, Train_Loss: 0.189449, proceeding to images: 160000, time left for the epoch: 19.76 min
+WARNING:tensorflow:Epoch: 12, Train_Loss: 0.189009, proceeding to images: 240000, time left for the epoch: 7.59 min
+W0821 15:31:09.375916 140633897510016 train_LSTM.py:296] Epoch: 12, Train_Loss: 0.189009, proceeding to images: 240000, time left for the epoch: 7.59 min
+WARNING:tensorflow:Epoch: 12, Train_Loss: 0.188927, 
+ Relative_surprise:0.003610, Eval_accuracy: 0.563137, Eval_relative_accuracy: 0.562092, Test on: continuity
+W0821 15:40:51.422198 140633897510016 train_LSTM.py:330] Epoch: 12, Train_Loss: 0.188927, 
+ Relative_surprise:0.003610, Eval_accuracy: 0.563137, Eval_relative_accuracy: 0.562092, Test on: continuity
+WARNING:tensorflow:Epoch: 12, Train_Loss: 0.188927, 
+ Relative_surprise:0.003667, Eval_accuracy: 0.587451, Eval_relative_accuracy: 0.638601, Test on: solidity
+W0821 15:42:53.716065 140633897510016 train_LSTM.py:330] Epoch: 12, Train_Loss: 0.188927, 
+ Relative_surprise:0.003667, Eval_accuracy: 0.587451, Eval_relative_accuracy: 0.638601, Test on: solidity
+WARNING:tensorflow:Epoch: 12, Train_Loss: 0.188927, 
+ Relative_surprise:0.003673, Eval_accuracy: 0.537451, Eval_relative_accuracy: 0.571319, Test on: directional_inertia
+W0821 15:44:57.267184 140633897510016 train_LSTM.py:330] Epoch: 12, Train_Loss: 0.188927, 
+ Relative_surprise:0.003673, Eval_accuracy: 0.537451, Eval_relative_accuracy: 0.571319, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 12, Train_Loss: 0.188927, 
+ Relative_surprise:0.003632, Eval_accuracy: 0.516275, Eval_relative_accuracy: 0.515955, Test on: unchangeableness
+W0821 15:47:01.675091 140633897510016 train_LSTM.py:330] Epoch: 12, Train_Loss: 0.188927, 
+ Relative_surprise:0.003632, Eval_accuracy: 0.516275, Eval_relative_accuracy: 0.515955, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 12, Train_Loss: 0.188927, 
+ Relative_surprise:0.003740, Eval_accuracy: 0.580392, Eval_relative_accuracy: 0.604383, Test on: object_persistence
+W0821 15:49:04.666024 140633897510016 train_LSTM.py:330] Epoch: 12, Train_Loss: 0.188927, 
+ Relative_surprise:0.003740, Eval_accuracy: 0.580392, Eval_relative_accuracy: 0.604383, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:21.114913 for 13 epochs
+W0821 15:49:04.669174 140633897510016 train_LSTM.py:343] Time: 0:54:21.114913 for 13 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-13
+W0821 15:49:05.068771 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-13
+WARNING:tensorflow:Epoch: 13, Train_Loss: 0.188641, proceeding to images: 80000, time left for the epoch: 31.30 min
+W0821 16:01:00.451524 140633897510016 train_LSTM.py:296] Epoch: 13, Train_Loss: 0.188641, proceeding to images: 80000, time left for the epoch: 31.30 min
+WARNING:tensorflow:Epoch: 13, Train_Loss: 0.189296, proceeding to images: 160000, time left for the epoch: 19.59 min
+W0821 16:13:11.370784 140633897510016 train_LSTM.py:296] Epoch: 13, Train_Loss: 0.189296, proceeding to images: 160000, time left for the epoch: 19.59 min
+WARNING:tensorflow:Epoch: 13, Train_Loss: 0.188864, proceeding to images: 240000, time left for the epoch: 7.56 min
+W0821 16:25:21.021909 140633897510016 train_LSTM.py:296] Epoch: 13, Train_Loss: 0.188864, proceeding to images: 240000, time left for the epoch: 7.56 min
+WARNING:tensorflow:Epoch: 13, Train_Loss: 0.188795, 
+ Relative_surprise:0.003742, Eval_accuracy: 0.556667, Eval_relative_accuracy: 0.570934, Test on: continuity
+W0821 16:35:00.022845 140633897510016 train_LSTM.py:330] Epoch: 13, Train_Loss: 0.188795, 
+ Relative_surprise:0.003742, Eval_accuracy: 0.556667, Eval_relative_accuracy: 0.570934, Test on: continuity
+WARNING:tensorflow:Epoch: 13, Train_Loss: 0.188795, 
+ Relative_surprise:0.003776, Eval_accuracy: 0.551765, Eval_relative_accuracy: 0.636294, Test on: solidity
+W0821 16:37:00.216987 140633897510016 train_LSTM.py:330] Epoch: 13, Train_Loss: 0.188795, 
+ Relative_surprise:0.003776, Eval_accuracy: 0.551765, Eval_relative_accuracy: 0.636294, Test on: solidity
+WARNING:tensorflow:Epoch: 13, Train_Loss: 0.188795, 
+ Relative_surprise:0.003772, Eval_accuracy: 0.548235, Eval_relative_accuracy: 0.560169, Test on: directional_inertia
+W0821 16:39:06.681924 140633897510016 train_LSTM.py:330] Epoch: 13, Train_Loss: 0.188795, 
+ Relative_surprise:0.003772, Eval_accuracy: 0.548235, Eval_relative_accuracy: 0.560169, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 13, Train_Loss: 0.188795, 
+ Relative_surprise:0.003733, Eval_accuracy: 0.520980, Eval_relative_accuracy: 0.518262, Test on: unchangeableness
+W0821 16:41:20.564994 140633897510016 train_LSTM.py:330] Epoch: 13, Train_Loss: 0.188795, 
+ Relative_surprise:0.003733, Eval_accuracy: 0.520980, Eval_relative_accuracy: 0.518262, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 13, Train_Loss: 0.188795, 
+ Relative_surprise:0.003838, Eval_accuracy: 0.591176, Eval_relative_accuracy: 0.618224, Test on: object_persistence
+W0821 16:43:33.788521 140633897510016 train_LSTM.py:330] Epoch: 13, Train_Loss: 0.188795, 
+ Relative_surprise:0.003838, Eval_accuracy: 0.591176, Eval_relative_accuracy: 0.618224, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:28.722529 for 14 epochs
+W0821 16:43:33.791507 140633897510016 train_LSTM.py:343] Time: 0:54:28.722529 for 14 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-14
+W0821 16:43:34.196246 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-14
+WARNING:tensorflow:Epoch: 14, Train_Loss: 0.188504, proceeding to images: 80000, time left for the epoch: 31.93 min
+W0821 16:55:43.980984 140633897510016 train_LSTM.py:296] Epoch: 14, Train_Loss: 0.188504, proceeding to images: 80000, time left for the epoch: 31.93 min
+WARNING:tensorflow:Epoch: 14, Train_Loss: 0.189176, proceeding to images: 160000, time left for the epoch: 19.75 min
+W0821 17:07:52.778762 140633897510016 train_LSTM.py:296] Epoch: 14, Train_Loss: 0.189176, proceeding to images: 160000, time left for the epoch: 19.75 min
+WARNING:tensorflow:Epoch: 14, Train_Loss: 0.188747, proceeding to images: 240000, time left for the epoch: 7.60 min
+W0821 17:20:01.640771 140633897510016 train_LSTM.py:296] Epoch: 14, Train_Loss: 0.188747, proceeding to images: 240000, time left for the epoch: 7.60 min
+WARNING:tensorflow:Epoch: 14, Train_Loss: 0.188669, 
+ Relative_surprise:0.003851, Eval_accuracy: 0.557843, Eval_relative_accuracy: 0.574010, Test on: continuity
+W0821 17:29:41.641201 140633897510016 train_LSTM.py:330] Epoch: 14, Train_Loss: 0.188669, 
+ Relative_surprise:0.003851, Eval_accuracy: 0.557843, Eval_relative_accuracy: 0.574010, Test on: continuity
+WARNING:tensorflow:Epoch: 14, Train_Loss: 0.188669, 
+ Relative_surprise:0.003899, Eval_accuracy: 0.557059, Eval_relative_accuracy: 0.653595, Test on: solidity
+W0821 17:31:44.314802 140633897510016 train_LSTM.py:330] Epoch: 14, Train_Loss: 0.188669, 
+ Relative_surprise:0.003899, Eval_accuracy: 0.557059, Eval_relative_accuracy: 0.653595, Test on: solidity
+WARNING:tensorflow:Epoch: 14, Train_Loss: 0.188669, 
+ Relative_surprise:0.003886, Eval_accuracy: 0.547255, Eval_relative_accuracy: 0.550173, Test on: directional_inertia
+W0821 17:33:48.138571 140633897510016 train_LSTM.py:330] Epoch: 14, Train_Loss: 0.188669, 
+ Relative_surprise:0.003886, Eval_accuracy: 0.547255, Eval_relative_accuracy: 0.550173, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 14, Train_Loss: 0.188669, 
+ Relative_surprise:0.003841, Eval_accuracy: 0.498432, Eval_relative_accuracy: 0.504421, Test on: unchangeableness
+W0821 17:35:57.797508 140633897510016 train_LSTM.py:330] Epoch: 14, Train_Loss: 0.188669, 
+ Relative_surprise:0.003841, Eval_accuracy: 0.498432, Eval_relative_accuracy: 0.504421, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 14, Train_Loss: 0.188669, 
+ Relative_surprise:0.003980, Eval_accuracy: 0.605098, Eval_relative_accuracy: 0.641676, Test on: object_persistence
+W0821 17:38:11.879215 140633897510016 train_LSTM.py:330] Epoch: 14, Train_Loss: 0.188669, 
+ Relative_surprise:0.003980, Eval_accuracy: 0.605098, Eval_relative_accuracy: 0.641676, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:37.686064 for 15 epochs
+W0821 17:38:11.882503 140633897510016 train_LSTM.py:343] Time: 0:54:37.686064 for 15 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-15
+W0821 17:38:12.276358 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-15
+WARNING:tensorflow:Epoch: 15, Train_Loss: 0.188403, proceeding to images: 80000, time left for the epoch: 31.80 min
+W0821 17:50:19.123592 140633897510016 train_LSTM.py:296] Epoch: 15, Train_Loss: 0.188403, proceeding to images: 80000, time left for the epoch: 31.80 min
+WARNING:tensorflow:Epoch: 15, Train_Loss: 0.189056, proceeding to images: 160000, time left for the epoch: 19.74 min
+W0821 18:02:29.722510 140633897510016 train_LSTM.py:296] Epoch: 15, Train_Loss: 0.189056, proceeding to images: 160000, time left for the epoch: 19.74 min
+WARNING:tensorflow:Epoch: 15, Train_Loss: 0.188617, proceeding to images: 240000, time left for the epoch: 7.59 min
+W0821 18:14:39.200717 140633897510016 train_LSTM.py:296] Epoch: 15, Train_Loss: 0.188617, proceeding to images: 240000, time left for the epoch: 7.59 min
+WARNING:tensorflow:Epoch: 15, Train_Loss: 0.188521, 
+ Relative_surprise:0.003970, Eval_accuracy: 0.545686, Eval_relative_accuracy: 0.556324, Test on: continuity
+W0821 18:24:16.701243 140633897510016 train_LSTM.py:330] Epoch: 15, Train_Loss: 0.188521, 
+ Relative_surprise:0.003970, Eval_accuracy: 0.545686, Eval_relative_accuracy: 0.556324, Test on: continuity
+WARNING:tensorflow:Epoch: 15, Train_Loss: 0.188521, 
+ Relative_surprise:0.003998, Eval_accuracy: 0.598431, Eval_relative_accuracy: 0.632834, Test on: solidity
+W0821 18:26:16.526167 140633897510016 train_LSTM.py:330] Epoch: 15, Train_Loss: 0.188521, 
+ Relative_surprise:0.003998, Eval_accuracy: 0.598431, Eval_relative_accuracy: 0.632834, Test on: solidity
+WARNING:tensorflow:Epoch: 15, Train_Loss: 0.188521, 
+ Relative_surprise:0.003981, Eval_accuracy: 0.536078, Eval_relative_accuracy: 0.542868, Test on: directional_inertia
+W0821 18:28:18.157013 140633897510016 train_LSTM.py:330] Epoch: 15, Train_Loss: 0.188521, 
+ Relative_surprise:0.003981, Eval_accuracy: 0.536078, Eval_relative_accuracy: 0.542868, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 15, Train_Loss: 0.188521, 
+ Relative_surprise:0.003947, Eval_accuracy: 0.538627, Eval_relative_accuracy: 0.525183, Test on: unchangeableness
+W0821 18:30:23.389950 140633897510016 train_LSTM.py:330] Epoch: 15, Train_Loss: 0.188521, 
+ Relative_surprise:0.003947, Eval_accuracy: 0.538627, Eval_relative_accuracy: 0.525183, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 15, Train_Loss: 0.188521, 
+ Relative_surprise:0.004044, Eval_accuracy: 0.578431, Eval_relative_accuracy: 0.623606, Test on: object_persistence
+W0821 18:32:26.889172 140633897510016 train_LSTM.py:330] Epoch: 15, Train_Loss: 0.188521, 
+ Relative_surprise:0.004044, Eval_accuracy: 0.578431, Eval_relative_accuracy: 0.623606, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:14.615131 for 16 epochs
+W0821 18:32:26.891682 140633897510016 train_LSTM.py:343] Time: 0:54:14.615131 for 16 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-16
+W0821 18:32:27.288548 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-16
+WARNING:tensorflow:Epoch: 16, Train_Loss: 0.188315, proceeding to images: 80000, time left for the epoch: 31.84 min
+W0821 18:44:35.010552 140633897510016 train_LSTM.py:296] Epoch: 16, Train_Loss: 0.188315, proceeding to images: 80000, time left for the epoch: 31.84 min
+WARNING:tensorflow:Epoch: 16, Train_Loss: 0.188941, proceeding to images: 160000, time left for the epoch: 19.73 min
+W0821 18:56:44.394556 140633897510016 train_LSTM.py:296] Epoch: 16, Train_Loss: 0.188941, proceeding to images: 160000, time left for the epoch: 19.73 min
+WARNING:tensorflow:Epoch: 16, Train_Loss: 0.188528, proceeding to images: 240000, time left for the epoch: 7.58 min
+W0821 19:08:51.546088 140633897510016 train_LSTM.py:296] Epoch: 16, Train_Loss: 0.188528, proceeding to images: 240000, time left for the epoch: 7.58 min
+WARNING:tensorflow:Epoch: 16, Train_Loss: 0.188433, 
+ Relative_surprise:0.004031, Eval_accuracy: 0.546471, Eval_relative_accuracy: 0.557862, Test on: continuity
+W0821 19:18:32.959458 140633897510016 train_LSTM.py:330] Epoch: 16, Train_Loss: 0.188433, 
+ Relative_surprise:0.004031, Eval_accuracy: 0.546471, Eval_relative_accuracy: 0.557862, Test on: continuity
+WARNING:tensorflow:Epoch: 16, Train_Loss: 0.188433, 
+ Relative_surprise:0.004037, Eval_accuracy: 0.561177, Eval_relative_accuracy: 0.596694, Test on: solidity
+W0821 19:20:36.500986 140633897510016 train_LSTM.py:330] Epoch: 16, Train_Loss: 0.188433, 
+ Relative_surprise:0.004037, Eval_accuracy: 0.561177, Eval_relative_accuracy: 0.596694, Test on: solidity
+WARNING:tensorflow:Epoch: 16, Train_Loss: 0.188433, 
+ Relative_surprise:0.004013, Eval_accuracy: 0.522745, Eval_relative_accuracy: 0.549789, Test on: directional_inertia
+W0821 19:22:37.926247 140633897510016 train_LSTM.py:330] Epoch: 16, Train_Loss: 0.188433, 
+ Relative_surprise:0.004013, Eval_accuracy: 0.522745, Eval_relative_accuracy: 0.549789, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 16, Train_Loss: 0.188433, 
+ Relative_surprise:0.003976, Eval_accuracy: 0.518039, Eval_relative_accuracy: 0.525183, Test on: unchangeableness
+W0821 19:24:40.195088 140633897510016 train_LSTM.py:330] Epoch: 16, Train_Loss: 0.188433, 
+ Relative_surprise:0.003976, Eval_accuracy: 0.518039, Eval_relative_accuracy: 0.525183, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 16, Train_Loss: 0.188433, 
+ Relative_surprise:0.004089, Eval_accuracy: 0.605490, Eval_relative_accuracy: 0.627451, Test on: object_persistence
+W0821 19:26:42.882482 140633897510016 train_LSTM.py:330] Epoch: 16, Train_Loss: 0.188433, 
+ Relative_surprise:0.004089, Eval_accuracy: 0.605490, Eval_relative_accuracy: 0.627451, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:15.595887 for 17 epochs
+W0821 19:26:42.884622 140633897510016 train_LSTM.py:343] Time: 0:54:15.595887 for 17 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-17
+W0821 19:26:43.267456 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-17
+WARNING:tensorflow:Epoch: 17, Train_Loss: 0.188196, proceeding to images: 80000, time left for the epoch: 31.82 min
+W0821 19:38:50.500697 140633897510016 train_LSTM.py:296] Epoch: 17, Train_Loss: 0.188196, proceeding to images: 80000, time left for the epoch: 31.82 min
+WARNING:tensorflow:Epoch: 17, Train_Loss: 0.188875, proceeding to images: 160000, time left for the epoch: 19.75 min
+W0821 19:51:02.092496 140633897510016 train_LSTM.py:296] Epoch: 17, Train_Loss: 0.188875, proceeding to images: 160000, time left for the epoch: 19.75 min
+WARNING:tensorflow:Epoch: 17, Train_Loss: 0.188423, proceeding to images: 240000, time left for the epoch: 7.60 min
+W0821 20:03:11.727310 140633897510016 train_LSTM.py:296] Epoch: 17, Train_Loss: 0.188423, proceeding to images: 240000, time left for the epoch: 7.60 min
+WARNING:tensorflow:Epoch: 17, Train_Loss: 0.188349, 
+ Relative_surprise:0.004072, Eval_accuracy: 0.534118, Eval_relative_accuracy: 0.552095, Test on: continuity
+W0821 20:12:51.537663 140633897510016 train_LSTM.py:330] Epoch: 17, Train_Loss: 0.188349, 
+ Relative_surprise:0.004072, Eval_accuracy: 0.534118, Eval_relative_accuracy: 0.552095, Test on: continuity
+WARNING:tensorflow:Epoch: 17, Train_Loss: 0.188349, 
+ Relative_surprise:0.004078, Eval_accuracy: 0.562745, Eval_relative_accuracy: 0.607459, Test on: solidity
+W0821 20:14:51.174570 140633897510016 train_LSTM.py:330] Epoch: 17, Train_Loss: 0.188349, 
+ Relative_surprise:0.004078, Eval_accuracy: 0.562745, Eval_relative_accuracy: 0.607459, Test on: solidity
+WARNING:tensorflow:Epoch: 17, Train_Loss: 0.188349, 
+ Relative_surprise:0.004055, Eval_accuracy: 0.520196, Eval_relative_accuracy: 0.538254, Test on: directional_inertia
+W0821 20:16:52.680893 140633897510016 train_LSTM.py:330] Epoch: 17, Train_Loss: 0.188349, 
+ Relative_surprise:0.004055, Eval_accuracy: 0.520196, Eval_relative_accuracy: 0.538254, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 17, Train_Loss: 0.188349, 
+ Relative_surprise:0.004021, Eval_accuracy: 0.519020, Eval_relative_accuracy: 0.512495, Test on: unchangeableness
+W0821 20:18:59.322614 140633897510016 train_LSTM.py:330] Epoch: 17, Train_Loss: 0.188349, 
+ Relative_surprise:0.004021, Eval_accuracy: 0.519020, Eval_relative_accuracy: 0.512495, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 17, Train_Loss: 0.188349, 
+ Relative_surprise:0.004123, Eval_accuracy: 0.594118, Eval_relative_accuracy: 0.635525, Test on: object_persistence
+W0821 20:21:05.036353 140633897510016 train_LSTM.py:330] Epoch: 17, Train_Loss: 0.188349, 
+ Relative_surprise:0.004123, Eval_accuracy: 0.594118, Eval_relative_accuracy: 0.635525, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:21.771356 for 18 epochs
+W0821 20:21:05.039000 140633897510016 train_LSTM.py:343] Time: 0:54:21.771356 for 18 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-18
+W0821 20:21:05.427641 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-18
+WARNING:tensorflow:Epoch: 18, Train_Loss: 0.188099, proceeding to images: 80000, time left for the epoch: 31.87 min
+W0821 20:33:13.902772 140633897510016 train_LSTM.py:296] Epoch: 18, Train_Loss: 0.188099, proceeding to images: 80000, time left for the epoch: 31.87 min
+WARNING:tensorflow:Epoch: 18, Train_Loss: 0.188732, proceeding to images: 160000, time left for the epoch: 19.76 min
+W0821 20:45:24.875780 140633897510016 train_LSTM.py:296] Epoch: 18, Train_Loss: 0.188732, proceeding to images: 160000, time left for the epoch: 19.76 min
+WARNING:tensorflow:Epoch: 18, Train_Loss: 0.188359, proceeding to images: 240000, time left for the epoch: 7.60 min
+W0821 20:57:33.302472 140633897510016 train_LSTM.py:296] Epoch: 18, Train_Loss: 0.188359, proceeding to images: 240000, time left for the epoch: 7.60 min
+WARNING:tensorflow:Epoch: 18, Train_Loss: 0.188246, 
+ Relative_surprise:0.004115, Eval_accuracy: 0.560196, Eval_relative_accuracy: 0.553249, Test on: continuity
+W0821 21:07:11.435800 140633897510016 train_LSTM.py:330] Epoch: 18, Train_Loss: 0.188246, 
+ Relative_surprise:0.004115, Eval_accuracy: 0.560196, Eval_relative_accuracy: 0.553249, Test on: continuity
+WARNING:tensorflow:Epoch: 18, Train_Loss: 0.188246, 
+ Relative_surprise:0.004115, Eval_accuracy: 0.565294, Eval_relative_accuracy: 0.579393, Test on: solidity
+W0821 21:09:17.355072 140633897510016 train_LSTM.py:330] Epoch: 18, Train_Loss: 0.188246, 
+ Relative_surprise:0.004115, Eval_accuracy: 0.565294, Eval_relative_accuracy: 0.579393, Test on: solidity
+WARNING:tensorflow:Epoch: 18, Train_Loss: 0.188246, 
+ Relative_surprise:0.004094, Eval_accuracy: 0.522941, Eval_relative_accuracy: 0.532872, Test on: directional_inertia
+W0821 21:11:21.819329 140633897510016 train_LSTM.py:330] Epoch: 18, Train_Loss: 0.188246, 
+ Relative_surprise:0.004094, Eval_accuracy: 0.522941, Eval_relative_accuracy: 0.532872, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 18, Train_Loss: 0.188246, 
+ Relative_surprise:0.004066, Eval_accuracy: 0.525686, Eval_relative_accuracy: 0.525952, Test on: unchangeableness
+W0821 21:13:33.128674 140633897510016 train_LSTM.py:330] Epoch: 18, Train_Loss: 0.188246, 
+ Relative_surprise:0.004066, Eval_accuracy: 0.525686, Eval_relative_accuracy: 0.525952, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 18, Train_Loss: 0.188246, 
+ Relative_surprise:0.004169, Eval_accuracy: 0.597843, Eval_relative_accuracy: 0.629758, Test on: object_persistence
+W0821 21:15:42.073319 140633897510016 train_LSTM.py:330] Epoch: 18, Train_Loss: 0.188246, 
+ Relative_surprise:0.004169, Eval_accuracy: 0.597843, Eval_relative_accuracy: 0.629758, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:36.647830 for 19 epochs
+W0821 21:15:42.075663 140633897510016 train_LSTM.py:343] Time: 0:54:36.647830 for 19 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-19
+W0821 21:15:42.501964 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-19
+WARNING:tensorflow:Epoch: 19, Train_Loss: 0.187991, proceeding to images: 80000, time left for the epoch: 31.85 min
+W0821 21:27:50.445984 140633897510016 train_LSTM.py:296] Epoch: 19, Train_Loss: 0.187991, proceeding to images: 80000, time left for the epoch: 31.85 min
+WARNING:tensorflow:Epoch: 19, Train_Loss: 0.188649, proceeding to images: 160000, time left for the epoch: 19.75 min
+W0821 21:40:00.815991 140633897510016 train_LSTM.py:296] Epoch: 19, Train_Loss: 0.188649, proceeding to images: 160000, time left for the epoch: 19.75 min
+WARNING:tensorflow:Epoch: 19, Train_Loss: 0.188227, proceeding to images: 240000, time left for the epoch: 7.55 min
+W0821 21:51:56.385630 140633897510016 train_LSTM.py:296] Epoch: 19, Train_Loss: 0.188227, proceeding to images: 240000, time left for the epoch: 7.55 min
+WARNING:tensorflow:Epoch: 19, Train_Loss: 0.188171, 
+ Relative_surprise:0.004143, Eval_accuracy: 0.521177, Eval_relative_accuracy: 0.532872, Test on: continuity
+W0821 22:01:34.429512 140633897510016 train_LSTM.py:330] Epoch: 19, Train_Loss: 0.188171, 
+ Relative_surprise:0.004143, Eval_accuracy: 0.521177, Eval_relative_accuracy: 0.532872, Test on: continuity
+WARNING:tensorflow:Epoch: 19, Train_Loss: 0.188171, 
+ Relative_surprise:0.004142, Eval_accuracy: 0.529019, Eval_relative_accuracy: 0.595540, Test on: solidity
+W0821 22:03:36.651555 140633897510016 train_LSTM.py:330] Epoch: 19, Train_Loss: 0.188171, 
+ Relative_surprise:0.004142, Eval_accuracy: 0.529019, Eval_relative_accuracy: 0.595540, Test on: solidity
+WARNING:tensorflow:Epoch: 19, Train_Loss: 0.188171, 
+ Relative_surprise:0.004129, Eval_accuracy: 0.514902, Eval_relative_accuracy: 0.537486, Test on: directional_inertia
+W0821 22:05:37.382176 140633897510016 train_LSTM.py:330] Epoch: 19, Train_Loss: 0.188171, 
+ Relative_surprise:0.004129, Eval_accuracy: 0.514902, Eval_relative_accuracy: 0.537486, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 19, Train_Loss: 0.188171, 
+ Relative_surprise:0.004097, Eval_accuracy: 0.521765, Eval_relative_accuracy: 0.520185, Test on: unchangeableness
+W0821 22:07:40.722033 140633897510016 train_LSTM.py:330] Epoch: 19, Train_Loss: 0.188171, 
+ Relative_surprise:0.004097, Eval_accuracy: 0.521765, Eval_relative_accuracy: 0.520185, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 19, Train_Loss: 0.188171, 
+ Relative_surprise:0.004214, Eval_accuracy: 0.610588, Eval_relative_accuracy: 0.644752, Test on: object_persistence
+W0821 22:09:42.818701 140633897510016 train_LSTM.py:330] Epoch: 19, Train_Loss: 0.188171, 
+ Relative_surprise:0.004214, Eval_accuracy: 0.610588, Eval_relative_accuracy: 0.644752, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:00.318823 for 20 epochs
+W0821 22:09:42.820942 140633897510016 train_LSTM.py:343] Time: 0:54:00.318823 for 20 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-20
+W0821 22:09:43.213026 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-20
+WARNING:tensorflow:Epoch: 20, Train_Loss: 0.187913, proceeding to images: 80000, time left for the epoch: 31.91 min
+W0821 22:21:52.526808 140633897510016 train_LSTM.py:296] Epoch: 20, Train_Loss: 0.187913, proceeding to images: 80000, time left for the epoch: 31.91 min
+WARNING:tensorflow:Epoch: 20, Train_Loss: 0.188570, proceeding to images: 160000, time left for the epoch: 19.79 min
+W0821 22:34:04.795241 140633897510016 train_LSTM.py:296] Epoch: 20, Train_Loss: 0.188570, proceeding to images: 160000, time left for the epoch: 19.79 min
+WARNING:tensorflow:Epoch: 20, Train_Loss: 0.188143, proceeding to images: 240000, time left for the epoch: 7.61 min
+W0821 22:46:15.666749 140633897510016 train_LSTM.py:296] Epoch: 20, Train_Loss: 0.188143, proceeding to images: 240000, time left for the epoch: 7.61 min
+WARNING:tensorflow:Epoch: 20, Train_Loss: 0.188055, 
+ Relative_surprise:0.004207, Eval_accuracy: 0.560980, Eval_relative_accuracy: 0.550557, Test on: continuity
+W0821 22:55:57.478614 140633897510016 train_LSTM.py:330] Epoch: 20, Train_Loss: 0.188055, 
+ Relative_surprise:0.004207, Eval_accuracy: 0.560980, Eval_relative_accuracy: 0.550557, Test on: continuity
+WARNING:tensorflow:Epoch: 20, Train_Loss: 0.188055, 
+ Relative_surprise:0.004215, Eval_accuracy: 0.584902, Eval_relative_accuracy: 0.621684, Test on: solidity
+W0821 22:57:57.958549 140633897510016 train_LSTM.py:330] Epoch: 20, Train_Loss: 0.188055, 
+ Relative_surprise:0.004215, Eval_accuracy: 0.584902, Eval_relative_accuracy: 0.621684, Test on: solidity
+WARNING:tensorflow:Epoch: 20, Train_Loss: 0.188055, 
+ Relative_surprise:0.004204, Eval_accuracy: 0.523922, Eval_relative_accuracy: 0.546328, Test on: directional_inertia
+W0821 22:59:57.970654 140633897510016 train_LSTM.py:330] Epoch: 20, Train_Loss: 0.188055, 
+ Relative_surprise:0.004204, Eval_accuracy: 0.523922, Eval_relative_accuracy: 0.546328, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 20, Train_Loss: 0.188055, 
+ Relative_surprise:0.004178, Eval_accuracy: 0.525098, Eval_relative_accuracy: 0.527105, Test on: unchangeableness
+W0821 23:02:01.632452 140633897510016 train_LSTM.py:330] Epoch: 20, Train_Loss: 0.188055, 
+ Relative_surprise:0.004178, Eval_accuracy: 0.525098, Eval_relative_accuracy: 0.527105, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 20, Train_Loss: 0.188055, 
+ Relative_surprise:0.004257, Eval_accuracy: 0.575098, Eval_relative_accuracy: 0.615532, Test on: object_persistence
+W0821 23:04:09.857758 140633897510016 train_LSTM.py:330] Epoch: 20, Train_Loss: 0.188055, 
+ Relative_surprise:0.004257, Eval_accuracy: 0.575098, Eval_relative_accuracy: 0.615532, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:26.646898 for 21 epochs
+W0821 23:04:09.860102 140633897510016 train_LSTM.py:343] Time: 0:54:26.646898 for 21 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-21
+W0821 23:04:10.152625 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-21
+WARNING:tensorflow:Epoch: 21, Train_Loss: 0.187837, proceeding to images: 80000, time left for the epoch: 31.85 min
+W0821 23:16:18.074500 140633897510016 train_LSTM.py:296] Epoch: 21, Train_Loss: 0.187837, proceeding to images: 80000, time left for the epoch: 31.85 min
+WARNING:tensorflow:Epoch: 21, Train_Loss: 0.188450, proceeding to images: 160000, time left for the epoch: 19.75 min
+W0821 23:28:28.499080 140633897510016 train_LSTM.py:296] Epoch: 21, Train_Loss: 0.188450, proceeding to images: 160000, time left for the epoch: 19.75 min
+WARNING:tensorflow:Epoch: 21, Train_Loss: 0.188066, proceeding to images: 240000, time left for the epoch: 7.60 min
+W0821 23:40:38.579692 140633897510016 train_LSTM.py:296] Epoch: 21, Train_Loss: 0.188066, proceeding to images: 240000, time left for the epoch: 7.60 min
+WARNING:tensorflow:Epoch: 21, Train_Loss: 0.187986, 
+ Relative_surprise:0.004243, Eval_accuracy: 0.521373, Eval_relative_accuracy: 0.540177, Test on: continuity
+W0821 23:50:18.375800 140633897510016 train_LSTM.py:330] Epoch: 21, Train_Loss: 0.187986, 
+ Relative_surprise:0.004243, Eval_accuracy: 0.521373, Eval_relative_accuracy: 0.540177, Test on: continuity
+WARNING:tensorflow:Epoch: 21, Train_Loss: 0.187986, 
+ Relative_surprise:0.004228, Eval_accuracy: 0.518039, Eval_relative_accuracy: 0.564398, Test on: solidity
+W0821 23:52:19.419665 140633897510016 train_LSTM.py:330] Epoch: 21, Train_Loss: 0.187986, 
+ Relative_surprise:0.004228, Eval_accuracy: 0.518039, Eval_relative_accuracy: 0.564398, Test on: solidity
+WARNING:tensorflow:Epoch: 21, Train_Loss: 0.187986, 
+ Relative_surprise:0.004210, Eval_accuracy: 0.517843, Eval_relative_accuracy: 0.530565, Test on: directional_inertia
+W0821 23:54:20.875708 140633897510016 train_LSTM.py:330] Epoch: 21, Train_Loss: 0.187986, 
+ Relative_surprise:0.004210, Eval_accuracy: 0.517843, Eval_relative_accuracy: 0.530565, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 21, Train_Loss: 0.187986, 
+ Relative_surprise:0.004181, Eval_accuracy: 0.515294, Eval_relative_accuracy: 0.514033, Test on: unchangeableness
+W0821 23:56:35.846553 140633897510016 train_LSTM.py:330] Epoch: 21, Train_Loss: 0.187986, 
+ Relative_surprise:0.004181, Eval_accuracy: 0.515294, Eval_relative_accuracy: 0.514033, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 21, Train_Loss: 0.187986, 
+ Relative_surprise:0.004263, Eval_accuracy: 0.582745, Eval_relative_accuracy: 0.618224, Test on: object_persistence
+W0821 23:58:40.815308 140633897510016 train_LSTM.py:330] Epoch: 21, Train_Loss: 0.187986, 
+ Relative_surprise:0.004263, Eval_accuracy: 0.582745, Eval_relative_accuracy: 0.618224, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:30.665655 for 22 epochs
+W0821 23:58:40.818478 140633897510016 train_LSTM.py:343] Time: 0:54:30.665655 for 22 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-22
+W0821 23:58:41.212594 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-22
+WARNING:tensorflow:Epoch: 22, Train_Loss: 0.187743, proceeding to images: 80000, time left for the epoch: 31.81 min
+W0822 00:10:48.366695 140633897510016 train_LSTM.py:296] Epoch: 22, Train_Loss: 0.187743, proceeding to images: 80000, time left for the epoch: 31.81 min
+WARNING:tensorflow:Epoch: 22, Train_Loss: 0.188387, proceeding to images: 160000, time left for the epoch: 19.74 min
+W0822 00:22:58.760066 140633897510016 train_LSTM.py:296] Epoch: 22, Train_Loss: 0.188387, proceeding to images: 160000, time left for the epoch: 19.74 min
+WARNING:tensorflow:Epoch: 22, Train_Loss: 0.187998, proceeding to images: 240000, time left for the epoch: 7.60 min
+W0822 00:35:08.999657 140633897510016 train_LSTM.py:296] Epoch: 22, Train_Loss: 0.187998, proceeding to images: 240000, time left for the epoch: 7.60 min
+WARNING:tensorflow:Epoch: 22, Train_Loss: 0.187896, 
+ Relative_surprise:0.004248, Eval_accuracy: 0.530392, Eval_relative_accuracy: 0.542099, Test on: continuity
+W0822 00:44:47.441704 140633897510016 train_LSTM.py:330] Epoch: 22, Train_Loss: 0.187896, 
+ Relative_surprise:0.004248, Eval_accuracy: 0.530392, Eval_relative_accuracy: 0.542099, Test on: continuity
+WARNING:tensorflow:Epoch: 22, Train_Loss: 0.187896, 
+ Relative_surprise:0.004245, Eval_accuracy: 0.566863, Eval_relative_accuracy: 0.594387, Test on: solidity
+W0822 00:46:46.920513 140633897510016 train_LSTM.py:330] Epoch: 22, Train_Loss: 0.187896, 
+ Relative_surprise:0.004245, Eval_accuracy: 0.566863, Eval_relative_accuracy: 0.594387, Test on: solidity
+WARNING:tensorflow:Epoch: 22, Train_Loss: 0.187896, 
+ Relative_surprise:0.004231, Eval_accuracy: 0.525098, Eval_relative_accuracy: 0.545175, Test on: directional_inertia
+W0822 00:48:50.640567 140633897510016 train_LSTM.py:330] Epoch: 22, Train_Loss: 0.187896, 
+ Relative_surprise:0.004231, Eval_accuracy: 0.525098, Eval_relative_accuracy: 0.545175, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 22, Train_Loss: 0.187896, 
+ Relative_surprise:0.004210, Eval_accuracy: 0.534314, Eval_relative_accuracy: 0.527489, Test on: unchangeableness
+W0822 00:50:52.751636 140633897510016 train_LSTM.py:330] Epoch: 22, Train_Loss: 0.187896, 
+ Relative_surprise:0.004210, Eval_accuracy: 0.534314, Eval_relative_accuracy: 0.527489, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 22, Train_Loss: 0.187896, 
+ Relative_surprise:0.004290, Eval_accuracy: 0.590588, Eval_relative_accuracy: 0.615532, Test on: object_persistence
+W0822 00:52:53.578534 140633897510016 train_LSTM.py:330] Epoch: 22, Train_Loss: 0.187896, 
+ Relative_surprise:0.004290, Eval_accuracy: 0.590588, Eval_relative_accuracy: 0.615532, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:12.367983 for 23 epochs
+W0822 00:52:53.580763 140633897510016 train_LSTM.py:343] Time: 0:54:12.367983 for 23 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-23
+W0822 00:52:53.966114 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-23
+WARNING:tensorflow:Epoch: 23, Train_Loss: 0.187659, proceeding to images: 80000, time left for the epoch: 31.98 min
+W0822 01:05:04.832109 140633897510016 train_LSTM.py:296] Epoch: 23, Train_Loss: 0.187659, proceeding to images: 80000, time left for the epoch: 31.98 min
+WARNING:tensorflow:Epoch: 23, Train_Loss: 0.188313, proceeding to images: 160000, time left for the epoch: 19.76 min
+W0822 01:17:13.315328 140633897510016 train_LSTM.py:296] Epoch: 23, Train_Loss: 0.188313, proceeding to images: 160000, time left for the epoch: 19.76 min
+WARNING:tensorflow:Epoch: 23, Train_Loss: 0.187898, proceeding to images: 240000, time left for the epoch: 7.60 min
+W0822 01:29:21.691794 140633897510016 train_LSTM.py:296] Epoch: 23, Train_Loss: 0.187898, proceeding to images: 240000, time left for the epoch: 7.60 min
+WARNING:tensorflow:Epoch: 23, Train_Loss: 0.187827, 
+ Relative_surprise:0.004277, Eval_accuracy: 0.550784, Eval_relative_accuracy: 0.557478, Test on: continuity
+W0822 01:39:03.425709 140633897510016 train_LSTM.py:330] Epoch: 23, Train_Loss: 0.187827, 
+ Relative_surprise:0.004277, Eval_accuracy: 0.550784, Eval_relative_accuracy: 0.557478, Test on: continuity
+WARNING:tensorflow:Epoch: 23, Train_Loss: 0.187827, 
+ Relative_surprise:0.004268, Eval_accuracy: 0.580784, Eval_relative_accuracy: 0.556709, Test on: solidity
+W0822 01:41:06.910191 140633897510016 train_LSTM.py:330] Epoch: 23, Train_Loss: 0.187827, 
+ Relative_surprise:0.004268, Eval_accuracy: 0.580784, Eval_relative_accuracy: 0.556709, Test on: solidity
+WARNING:tensorflow:Epoch: 23, Train_Loss: 0.187827, 
+ Relative_surprise:0.004245, Eval_accuracy: 0.514902, Eval_relative_accuracy: 0.522107, Test on: directional_inertia
+W0822 01:43:10.655834 140633897510016 train_LSTM.py:330] Epoch: 23, Train_Loss: 0.187827, 
+ Relative_surprise:0.004245, Eval_accuracy: 0.514902, Eval_relative_accuracy: 0.522107, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 23, Train_Loss: 0.187827, 
+ Relative_surprise:0.004225, Eval_accuracy: 0.538039, Eval_relative_accuracy: 0.537101, Test on: unchangeableness
+W0822 01:45:26.393782 140633897510016 train_LSTM.py:330] Epoch: 23, Train_Loss: 0.187827, 
+ Relative_surprise:0.004225, Eval_accuracy: 0.538039, Eval_relative_accuracy: 0.537101, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 23, Train_Loss: 0.187827, 
+ Relative_surprise:0.004284, Eval_accuracy: 0.574314, Eval_relative_accuracy: 0.596309, Test on: object_persistence
+W0822 01:47:30.550469 140633897510016 train_LSTM.py:330] Epoch: 23, Train_Loss: 0.187827, 
+ Relative_surprise:0.004284, Eval_accuracy: 0.574314, Eval_relative_accuracy: 0.596309, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:36.586574 for 24 epochs
+W0822 01:47:30.552875 140633897510016 train_LSTM.py:343] Time: 0:54:36.586574 for 24 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-24
+W0822 01:47:30.944583 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-24
+WARNING:tensorflow:Epoch: 24, Train_Loss: 0.187573, proceeding to images: 80000, time left for the epoch: 31.81 min
+W0822 01:59:38.066013 140633897510016 train_LSTM.py:296] Epoch: 24, Train_Loss: 0.187573, proceeding to images: 80000, time left for the epoch: 31.81 min
+WARNING:tensorflow:Epoch: 24, Train_Loss: 0.188240, proceeding to images: 160000, time left for the epoch: 19.74 min
+W0822 02:11:48.373618 140633897510016 train_LSTM.py:296] Epoch: 24, Train_Loss: 0.188240, proceeding to images: 160000, time left for the epoch: 19.74 min
+WARNING:tensorflow:Epoch: 24, Train_Loss: 0.187825, proceeding to images: 240000, time left for the epoch: 7.60 min
+W0822 02:23:59.095762 140633897510016 train_LSTM.py:296] Epoch: 24, Train_Loss: 0.187825, proceeding to images: 240000, time left for the epoch: 7.60 min
+WARNING:tensorflow:Epoch: 24, Train_Loss: 0.187768, 
+ Relative_surprise:0.004273, Eval_accuracy: 0.532745, Eval_relative_accuracy: 0.552864, Test on: continuity
+W0822 02:33:41.464673 140633897510016 train_LSTM.py:330] Epoch: 24, Train_Loss: 0.187768, 
+ Relative_surprise:0.004273, Eval_accuracy: 0.532745, Eval_relative_accuracy: 0.552864, Test on: continuity
+WARNING:tensorflow:Epoch: 24, Train_Loss: 0.187768, 
+ Relative_surprise:0.004273, Eval_accuracy: 0.565686, Eval_relative_accuracy: 0.608997, Test on: solidity
+W0822 02:35:42.765485 140633897510016 train_LSTM.py:330] Epoch: 24, Train_Loss: 0.187768, 
+ Relative_surprise:0.004273, Eval_accuracy: 0.565686, Eval_relative_accuracy: 0.608997, Test on: solidity
+WARNING:tensorflow:Epoch: 24, Train_Loss: 0.187768, 
+ Relative_surprise:0.004263, Eval_accuracy: 0.522353, Eval_relative_accuracy: 0.539792, Test on: directional_inertia
+W0822 02:37:45.033997 140633897510016 train_LSTM.py:330] Epoch: 24, Train_Loss: 0.187768, 
+ Relative_surprise:0.004263, Eval_accuracy: 0.522353, Eval_relative_accuracy: 0.539792, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 24, Train_Loss: 0.187768, 
+ Relative_surprise:0.004243, Eval_accuracy: 0.529216, Eval_relative_accuracy: 0.536332, Test on: unchangeableness
+W0822 02:39:53.914175 140633897510016 train_LSTM.py:330] Epoch: 24, Train_Loss: 0.187768, 
+ Relative_surprise:0.004243, Eval_accuracy: 0.529216, Eval_relative_accuracy: 0.536332, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 24, Train_Loss: 0.187768, 
+ Relative_surprise:0.004312, Eval_accuracy: 0.581176, Eval_relative_accuracy: 0.612457, Test on: object_persistence
+W0822 02:42:03.853642 140633897510016 train_LSTM.py:330] Epoch: 24, Train_Loss: 0.187768, 
+ Relative_surprise:0.004312, Eval_accuracy: 0.581176, Eval_relative_accuracy: 0.612457, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:32.911217 for 25 epochs
+W0822 02:42:03.856003 140633897510016 train_LSTM.py:343] Time: 0:54:32.911217 for 25 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-25
+W0822 02:42:04.243474 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-25
+WARNING:tensorflow:Epoch: 25, Train_Loss: 0.187507, proceeding to images: 80000, time left for the epoch: 31.96 min
+W0822 02:54:14.845664 140633897510016 train_LSTM.py:296] Epoch: 25, Train_Loss: 0.187507, proceeding to images: 80000, time left for the epoch: 31.96 min
+WARNING:tensorflow:Epoch: 25, Train_Loss: 0.188174, proceeding to images: 160000, time left for the epoch: 19.75 min
+W0822 03:06:22.943896 140633897510016 train_LSTM.py:296] Epoch: 25, Train_Loss: 0.188174, proceeding to images: 160000, time left for the epoch: 19.75 min
+WARNING:tensorflow:Epoch: 25, Train_Loss: 0.187738, proceeding to images: 240000, time left for the epoch: 7.61 min
+W0822 03:18:35.333642 140633897510016 train_LSTM.py:296] Epoch: 25, Train_Loss: 0.187738, proceeding to images: 240000, time left for the epoch: 7.61 min
+WARNING:tensorflow:Epoch: 25, Train_Loss: 0.187693, 
+ Relative_surprise:0.004305, Eval_accuracy: 0.561960, Eval_relative_accuracy: 0.550173, Test on: continuity
+W0822 03:28:16.033742 140633897510016 train_LSTM.py:330] Epoch: 25, Train_Loss: 0.187693, 
+ Relative_surprise:0.004305, Eval_accuracy: 0.561960, Eval_relative_accuracy: 0.550173, Test on: continuity
+WARNING:tensorflow:Epoch: 25, Train_Loss: 0.187693, 
+ Relative_surprise:0.004298, Eval_accuracy: 0.557451, Eval_relative_accuracy: 0.593233, Test on: solidity
+W0822 03:30:17.917278 140633897510016 train_LSTM.py:330] Epoch: 25, Train_Loss: 0.187693, 
+ Relative_surprise:0.004298, Eval_accuracy: 0.557451, Eval_relative_accuracy: 0.593233, Test on: solidity
+WARNING:tensorflow:Epoch: 25, Train_Loss: 0.187693, 
+ Relative_surprise:0.004286, Eval_accuracy: 0.515882, Eval_relative_accuracy: 0.541330, Test on: directional_inertia
+W0822 03:32:22.353180 140633897510016 train_LSTM.py:330] Epoch: 25, Train_Loss: 0.187693, 
+ Relative_surprise:0.004286, Eval_accuracy: 0.515882, Eval_relative_accuracy: 0.541330, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 25, Train_Loss: 0.187693, 
+ Relative_surprise:0.004265, Eval_accuracy: 0.531961, Eval_relative_accuracy: 0.532488, Test on: unchangeableness
+W0822 03:34:33.991489 140633897510016 train_LSTM.py:330] Epoch: 25, Train_Loss: 0.187693, 
+ Relative_surprise:0.004265, Eval_accuracy: 0.531961, Eval_relative_accuracy: 0.532488, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 25, Train_Loss: 0.187693, 
+ Relative_surprise:0.004328, Eval_accuracy: 0.581373, Eval_relative_accuracy: 0.631296, Test on: object_persistence
+W0822 03:36:49.608761 140633897510016 train_LSTM.py:330] Epoch: 25, Train_Loss: 0.187693, 
+ Relative_surprise:0.004328, Eval_accuracy: 0.581373, Eval_relative_accuracy: 0.631296, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:45.367453 for 26 epochs
+W0822 03:36:49.611110 140633897510016 train_LSTM.py:343] Time: 0:54:45.367453 for 26 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-26
+W0822 03:36:50.001215 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-26
+WARNING:tensorflow:Epoch: 26, Train_Loss: 0.187434, proceeding to images: 80000, time left for the epoch: 31.99 min
+W0822 03:49:01.253954 140633897510016 train_LSTM.py:296] Epoch: 26, Train_Loss: 0.187434, proceeding to images: 80000, time left for the epoch: 31.99 min
+WARNING:tensorflow:Epoch: 26, Train_Loss: 0.188069, proceeding to images: 160000, time left for the epoch: 19.79 min
+W0822 04:01:11.273327 140633897510016 train_LSTM.py:296] Epoch: 26, Train_Loss: 0.188069, proceeding to images: 160000, time left for the epoch: 19.79 min
+WARNING:tensorflow:Epoch: 26, Train_Loss: 0.187676, proceeding to images: 240000, time left for the epoch: 7.62 min
+W0822 04:13:23.437614 140633897510016 train_LSTM.py:296] Epoch: 26, Train_Loss: 0.187676, proceeding to images: 240000, time left for the epoch: 7.62 min
+WARNING:tensorflow:Epoch: 26, Train_Loss: 0.187610, 
+ Relative_surprise:0.004313, Eval_accuracy: 0.534706, Eval_relative_accuracy: 0.545944, Test on: continuity
+W0822 04:23:05.236497 140633897510016 train_LSTM.py:330] Epoch: 26, Train_Loss: 0.187610, 
+ Relative_surprise:0.004313, Eval_accuracy: 0.534706, Eval_relative_accuracy: 0.545944, Test on: continuity
+WARNING:tensorflow:Epoch: 26, Train_Loss: 0.187610, 
+ Relative_surprise:0.004294, Eval_accuracy: 0.534118, Eval_relative_accuracy: 0.536332, Test on: solidity
+W0822 04:25:05.153917 140633897510016 train_LSTM.py:330] Epoch: 26, Train_Loss: 0.187610, 
+ Relative_surprise:0.004294, Eval_accuracy: 0.534118, Eval_relative_accuracy: 0.536332, Test on: solidity
+WARNING:tensorflow:Epoch: 26, Train_Loss: 0.187610, 
+ Relative_surprise:0.004280, Eval_accuracy: 0.516078, Eval_relative_accuracy: 0.535563, Test on: directional_inertia
+W0822 04:27:05.458815 140633897510016 train_LSTM.py:330] Epoch: 26, Train_Loss: 0.187610, 
+ Relative_surprise:0.004280, Eval_accuracy: 0.516078, Eval_relative_accuracy: 0.535563, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 26, Train_Loss: 0.187610, 
+ Relative_surprise:0.004267, Eval_accuracy: 0.536667, Eval_relative_accuracy: 0.542099, Test on: unchangeableness
+W0822 04:29:07.093914 140633897510016 train_LSTM.py:330] Epoch: 26, Train_Loss: 0.187610, 
+ Relative_surprise:0.004267, Eval_accuracy: 0.536667, Eval_relative_accuracy: 0.542099, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 26, Train_Loss: 0.187610, 
+ Relative_surprise:0.004321, Eval_accuracy: 0.572157, Eval_relative_accuracy: 0.605921, Test on: object_persistence
+W0822 04:31:08.522527 140633897510016 train_LSTM.py:330] Epoch: 26, Train_Loss: 0.187610, 
+ Relative_surprise:0.004321, Eval_accuracy: 0.572157, Eval_relative_accuracy: 0.605921, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:18.523342 for 27 epochs
+W0822 04:31:08.524754 140633897510016 train_LSTM.py:343] Time: 0:54:18.523342 for 27 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-27
+W0822 04:31:08.913234 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-27
+WARNING:tensorflow:Epoch: 27, Train_Loss: 0.187368, proceeding to images: 80000, time left for the epoch: 32.00 min
+W0822 04:43:20.395375 140633897510016 train_LSTM.py:296] Epoch: 27, Train_Loss: 0.187368, proceeding to images: 80000, time left for the epoch: 32.00 min
+WARNING:tensorflow:Epoch: 27, Train_Loss: 0.188015, proceeding to images: 160000, time left for the epoch: 19.76 min
+W0822 04:55:27.925138 140633897510016 train_LSTM.py:296] Epoch: 27, Train_Loss: 0.188015, proceeding to images: 160000, time left for the epoch: 19.76 min
+WARNING:tensorflow:Epoch: 27, Train_Loss: 0.187602, proceeding to images: 240000, time left for the epoch: 7.60 min
+W0822 05:07:38.382017 140633897510016 train_LSTM.py:296] Epoch: 27, Train_Loss: 0.187602, proceeding to images: 240000, time left for the epoch: 7.60 min
+WARNING:tensorflow:Epoch: 27, Train_Loss: 0.187548, 
+ Relative_surprise:0.004311, Eval_accuracy: 0.545490, Eval_relative_accuracy: 0.559400, Test on: continuity
+W0822 05:17:18.917549 140633897510016 train_LSTM.py:330] Epoch: 27, Train_Loss: 0.187548, 
+ Relative_surprise:0.004311, Eval_accuracy: 0.545490, Eval_relative_accuracy: 0.559400, Test on: continuity
+WARNING:tensorflow:Epoch: 27, Train_Loss: 0.187548, 
+ Relative_surprise:0.004295, Eval_accuracy: 0.525686, Eval_relative_accuracy: 0.556709, Test on: solidity
+W0822 05:19:19.287808 140633897510016 train_LSTM.py:330] Epoch: 27, Train_Loss: 0.187548, 
+ Relative_surprise:0.004295, Eval_accuracy: 0.525686, Eval_relative_accuracy: 0.556709, Test on: solidity
+WARNING:tensorflow:Epoch: 27, Train_Loss: 0.187548, 
+ Relative_surprise:0.004277, Eval_accuracy: 0.506470, Eval_relative_accuracy: 0.535563, Test on: directional_inertia
+W0822 05:21:26.806370 140633897510016 train_LSTM.py:330] Epoch: 27, Train_Loss: 0.187548, 
+ Relative_surprise:0.004277, Eval_accuracy: 0.506470, Eval_relative_accuracy: 0.535563, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 27, Train_Loss: 0.187548, 
+ Relative_surprise:0.004258, Eval_accuracy: 0.526863, Eval_relative_accuracy: 0.530565, Test on: unchangeableness
+W0822 05:23:30.877781 140633897510016 train_LSTM.py:330] Epoch: 27, Train_Loss: 0.187548, 
+ Relative_surprise:0.004258, Eval_accuracy: 0.526863, Eval_relative_accuracy: 0.530565, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 27, Train_Loss: 0.187548, 
+ Relative_surprise:0.004318, Eval_accuracy: 0.582157, Eval_relative_accuracy: 0.602461, Test on: object_persistence
+W0822 05:25:38.210735 140633897510016 train_LSTM.py:330] Epoch: 27, Train_Loss: 0.187548, 
+ Relative_surprise:0.004318, Eval_accuracy: 0.582157, Eval_relative_accuracy: 0.602461, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:29.299476 for 28 epochs
+W0822 05:25:38.212912 140633897510016 train_LSTM.py:343] Time: 0:54:29.299476 for 28 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-28
+W0822 05:25:38.610201 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-28
+WARNING:tensorflow:Epoch: 28, Train_Loss: 0.187287, proceeding to images: 80000, time left for the epoch: 32.06 min
+W0822 05:37:51.358373 140633897510016 train_LSTM.py:296] Epoch: 28, Train_Loss: 0.187287, proceeding to images: 80000, time left for the epoch: 32.06 min
+WARNING:tensorflow:Epoch: 28, Train_Loss: 0.187937, proceeding to images: 160000, time left for the epoch: 19.80 min
+W0822 05:50:00.656969 140633897510016 train_LSTM.py:296] Epoch: 28, Train_Loss: 0.187937, proceeding to images: 160000, time left for the epoch: 19.80 min
+WARNING:tensorflow:Epoch: 28, Train_Loss: 0.187544, proceeding to images: 240000, time left for the epoch: 7.61 min
+W0822 06:02:10.514343 140633897510016 train_LSTM.py:296] Epoch: 28, Train_Loss: 0.187544, proceeding to images: 240000, time left for the epoch: 7.61 min
+WARNING:tensorflow:Epoch: 28, Train_Loss: 0.187466, 
+ Relative_surprise:0.004312, Eval_accuracy: 0.556470, Eval_relative_accuracy: 0.550173, Test on: continuity
+W0822 06:11:54.620823 140633897510016 train_LSTM.py:330] Epoch: 28, Train_Loss: 0.187466, 
+ Relative_surprise:0.004312, Eval_accuracy: 0.556470, Eval_relative_accuracy: 0.550173, Test on: continuity
+WARNING:tensorflow:Epoch: 28, Train_Loss: 0.187466, 
+ Relative_surprise:0.004306, Eval_accuracy: 0.544510, Eval_relative_accuracy: 0.575932, Test on: solidity
+W0822 06:13:59.521163 140633897510016 train_LSTM.py:330] Epoch: 28, Train_Loss: 0.187466, 
+ Relative_surprise:0.004306, Eval_accuracy: 0.544510, Eval_relative_accuracy: 0.575932, Test on: solidity
+WARNING:tensorflow:Epoch: 28, Train_Loss: 0.187466, 
+ Relative_surprise:0.004298, Eval_accuracy: 0.525490, Eval_relative_accuracy: 0.547866, Test on: directional_inertia
+W0822 06:16:00.716850 140633897510016 train_LSTM.py:330] Epoch: 28, Train_Loss: 0.187466, 
+ Relative_surprise:0.004298, Eval_accuracy: 0.525490, Eval_relative_accuracy: 0.547866, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 28, Train_Loss: 0.187466, 
+ Relative_surprise:0.004282, Eval_accuracy: 0.525294, Eval_relative_accuracy: 0.530565, Test on: unchangeableness
+W0822 06:18:02.028580 140633897510016 train_LSTM.py:330] Epoch: 28, Train_Loss: 0.187466, 
+ Relative_surprise:0.004282, Eval_accuracy: 0.525294, Eval_relative_accuracy: 0.530565, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 28, Train_Loss: 0.187466, 
+ Relative_surprise:0.004338, Eval_accuracy: 0.564118, Eval_relative_accuracy: 0.623991, Test on: object_persistence
+W0822 06:20:03.953749 140633897510016 train_LSTM.py:330] Epoch: 28, Train_Loss: 0.187466, 
+ Relative_surprise:0.004338, Eval_accuracy: 0.564118, Eval_relative_accuracy: 0.623991, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:25.345823 for 29 epochs
+W0822 06:20:03.956203 140633897510016 train_LSTM.py:343] Time: 0:54:25.345823 for 29 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-29
+W0822 06:20:04.251635 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-29
+WARNING:tensorflow:Epoch: 29, Train_Loss: 0.187216, proceeding to images: 80000, time left for the epoch: 31.84 min
+W0822 06:32:11.916898 140633897510016 train_LSTM.py:296] Epoch: 29, Train_Loss: 0.187216, proceeding to images: 80000, time left for the epoch: 31.84 min
+WARNING:tensorflow:Epoch: 29, Train_Loss: 0.187877, proceeding to images: 160000, time left for the epoch: 19.73 min
+W0822 06:44:20.922619 140633897510016 train_LSTM.py:296] Epoch: 29, Train_Loss: 0.187877, proceeding to images: 160000, time left for the epoch: 19.73 min
+WARNING:tensorflow:Epoch: 29, Train_Loss: 0.187471, proceeding to images: 240000, time left for the epoch: 7.60 min
+W0822 06:56:31.754614 140633897510016 train_LSTM.py:296] Epoch: 29, Train_Loss: 0.187471, proceeding to images: 240000, time left for the epoch: 7.60 min
+WARNING:tensorflow:Epoch: 29, Train_Loss: 0.187396, 
+ Relative_surprise:0.004344, Eval_accuracy: 0.573529, Eval_relative_accuracy: 0.572088, Test on: continuity
+W0822 07:06:25.871437 140633897510016 train_LSTM.py:330] Epoch: 29, Train_Loss: 0.187396, 
+ Relative_surprise:0.004344, Eval_accuracy: 0.573529, Eval_relative_accuracy: 0.572088, Test on: continuity
+WARNING:tensorflow:Epoch: 29, Train_Loss: 0.187396, 
+ Relative_surprise:0.004345, Eval_accuracy: 0.552745, Eval_relative_accuracy: 0.593233, Test on: solidity
+W0822 07:08:38.703081 140633897510016 train_LSTM.py:330] Epoch: 29, Train_Loss: 0.187396, 
+ Relative_surprise:0.004345, Eval_accuracy: 0.552745, Eval_relative_accuracy: 0.593233, Test on: solidity
+WARNING:tensorflow:Epoch: 29, Train_Loss: 0.187396, 
+ Relative_surprise:0.004341, Eval_accuracy: 0.525686, Eval_relative_accuracy: 0.560554, Test on: directional_inertia
+W0822 07:10:55.071558 140633897510016 train_LSTM.py:330] Epoch: 29, Train_Loss: 0.187396, 
+ Relative_surprise:0.004341, Eval_accuracy: 0.525686, Eval_relative_accuracy: 0.560554, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 29, Train_Loss: 0.187396, 
+ Relative_surprise:0.004323, Eval_accuracy: 0.523922, Eval_relative_accuracy: 0.525952, Test on: unchangeableness
+W0822 07:13:28.143379 140633897510016 train_LSTM.py:330] Epoch: 29, Train_Loss: 0.187396, 
+ Relative_surprise:0.004323, Eval_accuracy: 0.523922, Eval_relative_accuracy: 0.525952, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 29, Train_Loss: 0.187396, 
+ Relative_surprise:0.004388, Eval_accuracy: 0.581961, Eval_relative_accuracy: 0.638216, Test on: object_persistence
+W0822 07:15:53.911381 140633897510016 train_LSTM.py:330] Epoch: 29, Train_Loss: 0.187396, 
+ Relative_surprise:0.004388, Eval_accuracy: 0.581961, Eval_relative_accuracy: 0.638216, Test on: object_persistence
+WARNING:tensorflow:Time: 0:55:49.661955 for 30 epochs
+W0822 07:15:53.913792 140633897510016 train_LSTM.py:343] Time: 0:55:49.661955 for 30 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-30
+W0822 07:15:54.293945 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-30
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.187144, proceeding to images: 80000, time left for the epoch: 31.97 min
+W0822 07:28:05.067029 140633897510016 train_LSTM.py:296] Epoch: 30, Train_Loss: 0.187144, proceeding to images: 80000, time left for the epoch: 31.97 min
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.187810, proceeding to images: 160000, time left for the epoch: 19.77 min
+W0822 07:40:14.338566 140633897510016 train_LSTM.py:296] Epoch: 30, Train_Loss: 0.187810, proceeding to images: 160000, time left for the epoch: 19.77 min
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.187420, proceeding to images: 240000, time left for the epoch: 7.61 min
+W0822 07:52:25.073378 140633897510016 train_LSTM.py:296] Epoch: 30, Train_Loss: 0.187420, proceeding to images: 240000, time left for the epoch: 7.61 min
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.187338, 
+ Relative_surprise:0.004385, Eval_accuracy: 0.550588, Eval_relative_accuracy: 0.555940, Test on: continuity
+W0822 08:02:07.730771 140633897510016 train_LSTM.py:330] Epoch: 30, Train_Loss: 0.187338, 
+ Relative_surprise:0.004385, Eval_accuracy: 0.550588, Eval_relative_accuracy: 0.555940, Test on: continuity
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.187338, 
+ Relative_surprise:0.004374, Eval_accuracy: 0.527255, Eval_relative_accuracy: 0.564014, Test on: solidity
+W0822 08:04:07.401793 140633897510016 train_LSTM.py:330] Epoch: 30, Train_Loss: 0.187338, 
+ Relative_surprise:0.004374, Eval_accuracy: 0.527255, Eval_relative_accuracy: 0.564014, Test on: solidity
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.187338, 
+ Relative_surprise:0.004360, Eval_accuracy: 0.515098, Eval_relative_accuracy: 0.528258, Test on: directional_inertia
+W0822 08:06:08.129323 140633897510016 train_LSTM.py:330] Epoch: 30, Train_Loss: 0.187338, 
+ Relative_surprise:0.004360, Eval_accuracy: 0.515098, Eval_relative_accuracy: 0.528258, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.187338, 
+ Relative_surprise:0.004334, Eval_accuracy: 0.511961, Eval_relative_accuracy: 0.516724, Test on: unchangeableness
+W0822 08:08:09.721093 140633897510016 train_LSTM.py:330] Epoch: 30, Train_Loss: 0.187338, 
+ Relative_surprise:0.004334, Eval_accuracy: 0.511961, Eval_relative_accuracy: 0.516724, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 30, Train_Loss: 0.187338, 
+ Relative_surprise:0.004391, Eval_accuracy: 0.580392, Eval_relative_accuracy: 0.627066, Test on: object_persistence
+W0822 08:10:15.438793 140633897510016 train_LSTM.py:330] Epoch: 30, Train_Loss: 0.187338, 
+ Relative_surprise:0.004391, Eval_accuracy: 0.580392, Eval_relative_accuracy: 0.627066, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:21.146832 for 31 epochs
+W0822 08:10:15.440956 140633897510016 train_LSTM.py:343] Time: 0:54:21.146832 for 31 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-31
+W0822 08:10:15.816882 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-31
+WARNING:tensorflow:Epoch: 31, Train_Loss: 0.187064, proceeding to images: 80000, time left for the epoch: 31.96 min
+W0822 08:22:26.350145 140633897510016 train_LSTM.py:296] Epoch: 31, Train_Loss: 0.187064, proceeding to images: 80000, time left for the epoch: 31.96 min
+WARNING:tensorflow:Epoch: 31, Train_Loss: 0.187752, proceeding to images: 160000, time left for the epoch: 19.75 min
+W0822 08:34:34.133440 140633897510016 train_LSTM.py:296] Epoch: 31, Train_Loss: 0.187752, proceeding to images: 160000, time left for the epoch: 19.75 min
+WARNING:tensorflow:Epoch: 31, Train_Loss: 0.187324, proceeding to images: 240000, time left for the epoch: 7.60 min
+W0822 08:46:44.907309 140633897510016 train_LSTM.py:296] Epoch: 31, Train_Loss: 0.187324, proceeding to images: 240000, time left for the epoch: 7.60 min
+WARNING:tensorflow:Epoch: 31, Train_Loss: 0.187285, 
+ Relative_surprise:0.004392, Eval_accuracy: 0.560000, Eval_relative_accuracy: 0.583622, Test on: continuity
+W0822 08:56:23.879408 140633897510016 train_LSTM.py:330] Epoch: 31, Train_Loss: 0.187285, 
+ Relative_surprise:0.004392, Eval_accuracy: 0.560000, Eval_relative_accuracy: 0.583622, Test on: continuity
+WARNING:tensorflow:Epoch: 31, Train_Loss: 0.187285, 
+ Relative_surprise:0.004388, Eval_accuracy: 0.537255, Eval_relative_accuracy: 0.607459, Test on: solidity
+W0822 08:58:23.179573 140633897510016 train_LSTM.py:330] Epoch: 31, Train_Loss: 0.187285, 
+ Relative_surprise:0.004388, Eval_accuracy: 0.537255, Eval_relative_accuracy: 0.607459, Test on: solidity
+WARNING:tensorflow:Epoch: 31, Train_Loss: 0.187285, 
+ Relative_surprise:0.004377, Eval_accuracy: 0.521177, Eval_relative_accuracy: 0.550557, Test on: directional_inertia
+W0822 09:00:23.294986 140633897510016 train_LSTM.py:330] Epoch: 31, Train_Loss: 0.187285, 
+ Relative_surprise:0.004377, Eval_accuracy: 0.521177, Eval_relative_accuracy: 0.550557, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 31, Train_Loss: 0.187285, 
+ Relative_surprise:0.004360, Eval_accuracy: 0.532941, Eval_relative_accuracy: 0.529027, Test on: unchangeableness
+W0822 09:02:24.521557 140633897510016 train_LSTM.py:330] Epoch: 31, Train_Loss: 0.187285, 
+ Relative_surprise:0.004360, Eval_accuracy: 0.532941, Eval_relative_accuracy: 0.529027, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 31, Train_Loss: 0.187285, 
+ Relative_surprise:0.004405, Eval_accuracy: 0.571569, Eval_relative_accuracy: 0.600923, Test on: object_persistence
+W0822 09:04:24.983914 140633897510016 train_LSTM.py:330] Epoch: 31, Train_Loss: 0.187285, 
+ Relative_surprise:0.004405, Eval_accuracy: 0.571569, Eval_relative_accuracy: 0.600923, Test on: object_persistence
+WARNING:tensorflow:Time: 0:54:09.170060 for 32 epochs
+W0822 09:04:24.987110 140633897510016 train_LSTM.py:343] Time: 0:54:09.170060 for 32 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-32
+W0822 09:04:25.374699 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-32
+WARNING:tensorflow:Epoch: 32, Train_Loss: 0.187018, proceeding to images: 80000, time left for the epoch: 31.95 min
+W0822 09:16:35.731734 140633897510016 train_LSTM.py:296] Epoch: 32, Train_Loss: 0.187018, proceeding to images: 80000, time left for the epoch: 31.95 min
+WARNING:tensorflow:Epoch: 32, Train_Loss: 0.187681, proceeding to images: 160000, time left for the epoch: 19.76 min
+W0822 09:28:44.604509 140633897510016 train_LSTM.py:296] Epoch: 32, Train_Loss: 0.187681, proceeding to images: 160000, time left for the epoch: 19.76 min
+WARNING:tensorflow:Epoch: 32, Train_Loss: 0.187266, proceeding to images: 240000, time left for the epoch: 7.61 min
+W0822 09:40:55.798854 140633897510016 train_LSTM.py:296] Epoch: 32, Train_Loss: 0.187266, proceeding to images: 240000, time left for the epoch: 7.61 min
+WARNING:tensorflow:Epoch: 32, Train_Loss: 0.187216, 
+ Relative_surprise:0.004397, Eval_accuracy: 0.546862, Eval_relative_accuracy: 0.562860, Test on: continuity
+W0822 09:50:47.752818 140633897510016 train_LSTM.py:330] Epoch: 32, Train_Loss: 0.187216, 
+ Relative_surprise:0.004397, Eval_accuracy: 0.546862, Eval_relative_accuracy: 0.562860, Test on: continuity
+WARNING:tensorflow:Epoch: 32, Train_Loss: 0.187216, 
+ Relative_surprise:0.004383, Eval_accuracy: 0.522157, Eval_relative_accuracy: 0.547866, Test on: solidity
+W0822 09:53:01.155955 140633897510016 train_LSTM.py:330] Epoch: 32, Train_Loss: 0.187216, 
+ Relative_surprise:0.004383, Eval_accuracy: 0.522157, Eval_relative_accuracy: 0.547866, Test on: solidity
+WARNING:tensorflow:Epoch: 32, Train_Loss: 0.187216, 
+ Relative_surprise:0.004366, Eval_accuracy: 0.513529, Eval_relative_accuracy: 0.533256, Test on: directional_inertia
+W0822 09:55:16.345639 140633897510016 train_LSTM.py:330] Epoch: 32, Train_Loss: 0.187216, 
+ Relative_surprise:0.004366, Eval_accuracy: 0.513529, Eval_relative_accuracy: 0.533256, Test on: directional_inertia
+WARNING:tensorflow:Epoch: 32, Train_Loss: 0.187216, 
+ Relative_surprise:0.004347, Eval_accuracy: 0.519608, Eval_relative_accuracy: 0.522491, Test on: unchangeableness
+W0822 09:57:51.890655 140633897510016 train_LSTM.py:330] Epoch: 32, Train_Loss: 0.187216, 
+ Relative_surprise:0.004347, Eval_accuracy: 0.519608, Eval_relative_accuracy: 0.522491, Test on: unchangeableness
+WARNING:tensorflow:Epoch: 32, Train_Loss: 0.187216, 
+ Relative_surprise:0.004392, Eval_accuracy: 0.567451, Eval_relative_accuracy: 0.607459, Test on: object_persistence
+W0822 10:00:21.900642 140633897510016 train_LSTM.py:330] Epoch: 32, Train_Loss: 0.187216, 
+ Relative_surprise:0.004392, Eval_accuracy: 0.567451, Eval_relative_accuracy: 0.607459, Test on: object_persistence
+WARNING:tensorflow:Time: 0:55:56.528178 for 33 epochs
+W0822 10:00:21.903048 140633897510016 train_LSTM.py:343] Time: 0:55:56.528178 for 33 epochs
+WARNING:tensorflow:Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-33
+W0822 10:00:22.287933 140633897510016 train_LSTM.py:351] Saved checkpoint: ./checkpoint/dynamics/num_slot_8/slot_size_16_learning_rate_0.0004_/ckpt-33
